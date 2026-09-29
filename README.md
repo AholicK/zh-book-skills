@@ -1,304 +1,181 @@
 # zh-book-skills
 
-**25 本中文书 → 25 个 AI Agent 可直接调用的方法论技能包(539 张能力卡)。**
+**25 Chinese books → 25 callable methodology skill packs for AI agents (539 capability cards).**
 
-*25 Chinese books distilled into 25 callable methodology skill packs for AI agents — 539 capability cards (RIA-TV++), quote-verified 99.8%, with a cross-book routing cheatsheet.*
+*把 25 本中文书蒸馏成 AI Agent 可直接调用的方法论技能包——[中文完整说明见文末](#中文说明)。*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
-[![Skill Packs](https://img.shields.io/badge/skill_packs-25-8b5cf6.svg)](#25-本清单)
-[![Capability Cards](https://img.shields.io/badge/capability_cards-539-2ea44f.svg)](#25-本清单)
-[![Quote Verification](https://img.shields.io/badge/引文回源核验-99.8%25-f59e0b.svg)](#校验记录)
+[![Skill Packs](https://img.shields.io/badge/skill_packs-25-8b5cf6.svg)](#the-25-packs)
+[![Capability Cards](https://img.shields.io/badge/capability_cards-539-2ea44f.svg)](#the-25-packs)
+[![Quote Verification](https://img.shields.io/badge/quote--verified-99.8%25-f59e0b.svg)](#verified-quality)
 [![Pipeline](https://img.shields.io/badge/pipeline-cangjie--skill%20v2.5-1677ff.svg)](https://github.com/kangarooking/cangjie-skill)
+[![Docs](https://img.shields.io/badge/browse_539_cards-online-2ea44f.svg)](https://aholick.github.io/zh-book-skills/)
 
 ---
 
-_由 26 本 OCR 中文书经 [cangjie-skill](https://github.com/kangarooking/cangjie-skill) 流水线蒸馏而成 · 2026-09-20_
+> 🔧 **Want to distill your own batch of books?** Read the three docs in [`docs/`](./docs/) (Chinese):
+> [`怎么做skill-从一本书到可调用的能力.md`](./docs/怎么做skill-从一本书到可调用的能力.md) (methodology long-form + all pitfalls),
+> [`书籍蒸馏-Skill生产流程手册.md`](./docs/书籍蒸馏-Skill生产流程手册.md) (production playbook),
+> [`自己做第一个skill-实操清单.md`](./docs/自己做第一个skill-实操清单.md) (step-by-step checklist).
 
-> 🔧 **想照着做下一批书?** 看本仓库 [`docs/`](./docs/) 下的三篇文档:
-> [`怎么做skill-从一本书到可调用的能力.md`](./docs/怎么做skill-从一本书到可调用的能力.md)(方法论长文,含四道体检 + 实战问题清单)、
-> [`书籍蒸馏-Skill生产流程手册.md`](./docs/书籍蒸馏-Skill生产流程手册.md)(速查版流程)、
-> [`自己做第一个skill-实操清单.md`](./docs/自己做第一个skill-实操清单.md)(分步实操)。
+## What is this
 
----
+Each book was distilled into an **agent skill** — not book notes, but a **methodology an AI agent can invoke and execute**.
 
-## 这是什么
+The difference from reading notes: notes say "what the book says"; each card here says "**when** to use it, **which steps** to follow, and **how you know it was done right**". Every capability card ships with applicability conditions and non-applicability boundaries.
 
-每本书被蒸馏成一个 **agent skill（技能包）**——不是读书笔记，而是**可被 AI 直接调用执行的方法论**。
+- **Scale**: 25 skill packs / **539 capability cards** / 689 files (~8.1 MB)
+- **Format**: plain markdown following the [Agent Skills open specification](https://agentskills.io/specification) (`SKILL.md` + YAML frontmatter + `references/`) — works with Claude Code, hermes, and other compatible agents
+- **Pipeline**: [cangjie-skill](https://github.com/kangarooking/cangjie-skill) (MIT), RIA-TV++ v2.5 — six stages from candidate extraction to delivery
+- **Browse online**: 🌐 [https://aholick.github.io/zh-book-skills/](https://aholick.github.io/zh-book-skills/) — all 539 cards without installing anything
 
-**和读书笔记的区别**：读书笔记是「这本书讲了什么」，这里是「遇到什么情况时该怎么做、按什么步骤做、做完怎么算做对了」。
-每张能力卡都带**适用条件**和**不适用边界**，AI 照着就能直接干活。
+## Quick start
 
-**总量**：25 个技能包 / **539 张能力卡** / 689 个文件（约 8.1 MB）。
+### Use as plain documents
 
----
+Just read `SKILL.md` and `references/capabilities/*.md`. It's all markdown.
 
-## 怎么读（以 `seven-habits` 为例）
+### Install into an AI agent (recommended)
+
+This is what they're designed for. Drop a pack directory into your agent's skills directory:
+
+| Platform | Skills directory |
+|---|---|
+| Claude Code (personal) | `~/.claude/skills/` (Windows: `%USERPROFILE%\.claude\skills\`) |
+| Claude Code (project) | `.claude/skills/<skill-name>/` inside the repo |
+| WorkBuddy | `~/.workbuddy-ai/skills/` |
+| hermes (Windows) | `%LOCALAPPDATA%\hermes\skills\` |
+| hermes (Linux/macOS) | `$HERMES_HOME/skills/` (default `~/.hermes/skills/`) |
+
+The agent will auto-invoke them when a matching scenario appears (trigger conditions live in each `SKILL.md` `description`); you can also say "use the XX skill for this".
+
+> ⚠️ **Install one pack at a time — don't nest directories.** Recursive scanners treat every `SKILL.md` in a subdirectory as an independent skill.
+
+> 🌐 **English readers**: card content is Chinese (the source books are Chinese editions). Capability slugs, section labels (R/I/A1/A2/E/B) and the routing tables are structured, so agents route correctly and can translate content on the fly.
+
+### Not sure which pack to use?
+
+Several books cover the same domain (3× Python, 3× psychology, 3× thinking tools). Check the **[routing cheatsheet](./路由冲突速查.md)** (`路由冲突速查.md`, Chinese); **naming the book explicitly is the most reliable route** (7/7 hit rate in testing).
+
+## How to read a pack (example: `seven-habits`)
 
 ```
 seven-habits/
-├── SKILL.md                     ← ① 从这里开始
-├── BUILD_MANIFEST.json          ← 构建校验清单（可忽略）
+├── SKILL.md                     ← ① start here (triggers + capability routing table)
+├── BUILD_MANIFEST.json          ← build manifest (per-file SHA-256; ignorable)
 └── references/
-    ├── overview.md              ← ② 全书概览
-    ├── capability-index.md      ← ③ 能力卡索引（先看这个，再挑卡看）
-    ├── cheatsheet.md            ← 速查表（一页看完）
-    ├── glossary.md              ← 术语表
-    └── capabilities/*.md        ← ④ 单张能力卡（15 张）
+    ├── overview.md              ← ② whole-book overview
+    ├── capability-index.md      ← ③ capability index
+    ├── cheatsheet.md            ← one-page cheat sheet
+    ├── glossary.md              ← glossary
+    └── capabilities/*.md        ← ④ individual capability cards (15)
 ```
 
-**读法建议**：
+Each card follows the **RIA-TV++ six-section structure**:
 
-1. 先读 `SKILL.md` 开头的 `description`——它会告诉你「**什么时候该用这个技能**」。
-2. 再读 `references/capability-index.md`——看它把这本书拆成了哪几张能力卡。
-3. 挑你当下有需要的卡精读。每张卡内部是 **RIA-TV++ 六段结构**（R / I / A1 / A2 四段 + E / B 两段）：
-   - **R**（原文依据）：书里怎么说的，附引文与行号定位——可回源核验的锚点
-   - **I**（诠释）：这段在讲什么道理
-   - **A1**（书中的应用）：原书案例与合成演练分开标注
-   - **A2**（触发场景 ★）：用户会在什么情境下需要它
-   - **E**（可执行步骤）：输入/输出契约、完成标准、判停条件
-   - **B**（边界 ★）：什么时候**不要**用、作者盲点与失败模式
+| Section | Content |
+|---|---|
+| **R** (Reading) | Source quote with line-level location — the verifiable anchor |
+| **I** (Interpretation) | The methodology skeleton: what principle this encodes |
+| **A1** | In-book application cases (book cases vs. synthetic drills labeled separately) |
+| **A2** ★ | Future triggers: in which situations a user needs this |
+| **E** (Execution) | Executable steps: I/O contracts, completion criteria, stop conditions |
+| **B** (Boundary) ★ | When **not** to use it; author blind spots and failure modes |
 
-> `E`/`B` 两段是最容易被跳过、也最值钱的部分——它们决定 skill 会不会在错误的场景被调用。
-> 这套结构叫 **RIA-TV++**，目的就是让「读过」变成「能用」。
+`E`/`B` are the most skipped — and most valuable — sections: they decide whether the skill gets invoked in the wrong scenario.
 
----
+## The 25 packs
 
-## 25 本清单
-
-| # | 目录 | 书（作者） | 域 | 卡数 |
+| # | Directory | Book (author) | Domain | Cards |
 |---|---|---|---|---|
-| 1 | `intellectual-modern` | 智识分子（万维钢） | 思维 | 39 |
-| 2 | `underlying-logic` | 底层逻辑（刘润） | 思维 | 38 |
-| 3 | `thinking-fast-and-slow` | 思考，快与慢（卡尼曼） | 思维 | 33 |
-| 4 | `computation` | 计算（吴翰清） | 技术 | 27 |
-| 5 | `social-psychology` | 社会心理学（迈尔斯） | 心理 | 27 |
-| 6 | `cognitive-drive` | 认知驱动（周岭） | 成长 | 26 |
-| 7 | `python-crash-course` | Python 编程：从入门到实践（Eric Matthes） | Python | 24 |
-| 8 | `how-to-read-a-book` | 如何阅读一本书（艾德勒/范多伦） | 方法 | 22 |
-| 9 | `poor-charlies-almanack` | 穷查理宝典（查理·芒格） | 思维 | 21 |
-| 10 | `counseling-for-toads` | 蛤蟆先生去看心理医生（罗伯特·戴博德） | 心理 | 20 |
-| 11 | `automate-boring-stuff` | Python 编程快速上手（Al Sweigart） | Python | 20 |
-| 12 | `python-quick-reference` | Python 背记手册（源文未署名） | Python | 20 |
-| 13 | `one-thing-in-life` | 人生只有一件事（金惟纯） | 成长 | 19 |
-| 14 | `courage-to-be-disliked` | 被讨厌的勇气（岸见一郎/古贺史健） | 心理 | 19 |
-| 15 | `deliberate-practice` | 刻意练习（艾利克森/普尔） | 方法 | 19 |
-| 16 | `elite-time-control` | 为什么精英都是时间控（桦泽紫苑） | 效率 | 19 |
-| 17 | `naval-almanack` ⚠️ | 纳瓦尔宝典（Naval Ravikant） | 财富 | 19 |
-| 18 | `siddhartha` | 悉达多（黑塞） | 意义 | 18 |
-| 19 | `goodbye-sapiens` | 再见智人（吴冠军） | 思维 | 17 |
-| 20 | `settle-yourself` | 往里走，安顿自己（许倬云） | 心理 | 17 |
-| 21 | `a-year-rebirth` | 用一年时间重生（娜里跑） | 成长 | 16 |
-| 22 | `myth-of-sisyphus` | 西西弗神话（加缪） | 意义 | 16 |
-| 23 | `seven-habits` | 高效能人士的七个习惯（史蒂芬·柯维） | 效率 | 15 |
-| 24 | `let-time-make-you-rich` | 让时间陪你慢慢变富（李笑来） | 投资 | 15 |
-| 25 | `nonviolent-communication` | 非暴力沟通（马歇尔·卢森堡） | 沟通 | 13 |
+| 1 | `intellectual-modern` | 智识分子 The Intellectual (万维钢) | Thinking | 39 |
+| 2 | `underlying-logic` | 底层逻辑 The Underlying Logic (刘润) | Thinking | 38 |
+| 3 | `thinking-fast-and-slow` | Thinking, Fast and Slow (Kahneman, zh. ed.) | Thinking | 33 |
+| 4 | `computation` | 计算 Computation (吴翰清) | Tech | 27 |
+| 5 | `social-psychology` | Social Psychology (Myers, zh. ed.) | Psychology | 27 |
+| 6 | `cognitive-drive` | 认知驱动 The Cognitive Drive (周岭) | Growth | 26 |
+| 7 | `python-crash-course` | Python Crash Course (Eric Matthes, zh. ed.) | Python | 24 |
+| 8 | `how-to-read-a-book` | How to Read a Book (Adler & Van Doren, zh. ed.) | Method | 22 |
+| 9 | `poor-charlies-almanack` | Poor Charlie's Almanack (Munger, zh. ed.) | Thinking | 21 |
+| 10 | `counseling-for-toads` | Counselling for Toads (de Board, zh. ed.) | Psychology | 20 |
+| 11 | `automate-boring-stuff` | Automate the Boring Stuff (Sweigart, zh. ed.) | Python | 20 |
+| 12 | `python-quick-reference` | Python Quick Reference (unattributed source) | Python | 20 |
+| 13 | `one-thing-in-life` | 人生只有一件事 One Thing in Life (金惟纯) | Growth | 19 |
+| 14 | `courage-to-be-disliked` | The Courage to Be Disliked (Kishimi & Koga, zh. ed.) | Psychology | 19 |
+| 15 | `deliberate-practice` | Peak (Ericsson & Pool, zh. ed.) | Method | 19 |
+| 16 | `elite-time-control` | The Elite's Time Control (桦泽紫苑, zh. ed.) | Productivity | 19 |
+| 17 | `naval-almanack` ⚠️ | The Almanack of Naval Ravikant (zh. ed.) | Wealth | 19 |
+| 18 | `siddhartha` | Siddhartha (Hesse, zh. ed.) | Meaning | 18 |
+| 19 | `goodbye-sapiens` | 再见智人 Goodbye Sapiens (吴冠军) | Thinking | 17 |
+| 20 | `settle-yourself` | 往里走，安顿自己 Settle Yourself (许倬云) | Psychology | 17 |
+| 21 | `a-year-rebirth` | 用一年时间重生 A Year of Rebirth (娜里跑) | Growth | 16 |
+| 22 | `myth-of-sisyphus` | The Myth of Sisyphus (Camus, zh. ed.) | Meaning | 16 |
+| 23 | `seven-habits` | The 7 Habits of Highly Effective People (Covey, zh. ed.) | Productivity | 15 |
+| 24 | `let-time-make-you-rich` | 让时间陪你慢慢变富 Let Time Make You Rich (李笑来) | Investing | 15 |
+| 25 | `nonviolent-communication` | Nonviolent Communication (Rosenberg, zh. ed.) | Communication | 13 |
 
-> ⚠️ **`naval-almanack` 与其余 24 本来源不同**：它是 `cangjie-skill` 包**自带的示例**（生成于 2026-08-30），
-> **不是本批跑出来的**。结构、六段、边界都过了机检（`validate_skill_pack.py` 0 error），可以正常用；
-> 但它**没做过本批那套两层盲测**（无触发层通过率、无 `without_skill` 对照组），所以**没有质量数字**。
->
-> 📌 **2026-09-20 已做一次「触发词收窄」**：它的原始 `description` 用了 `致富/财富/幸福/判断力/读书/人生意义`
-> 六个宽泛词，与既有 skill 大量抢单。已删除这些词，改为本书独有概念词（`特殊知识/产品化自己/睡觉时赚钱/…`），
-> 并加入对 11 个相邻 skill 的**显式让位清单**。改动只涉及 `SKILL.md` 与 `BUILD_MANIFEST.json`，
-> **19 张能力卡内容一字未动**，清单已用 `local_patch` 字段留痕。
-> **效果未做动态实测** —— 「改完还撞不撞」需要跑探针才能回答。
+> ⚠️ **`naval-almanack` has a different provenance**: it is the built-in example shipped with cangjie-skill, not produced by this batch. It passed all structural checks (`validate_skill_pack.py` 0 errors) and works fine, but never went through this batch's two-layer blind evaluation, so it carries no quality numbers. Its `description` was narrowed on 2026-09-20 (card content untouched; traceable via the `local_patch` field in `BUILD_MANIFEST.json`).
 
----
+## Verified quality
 
-## 用法
+All numbers are author-measured; methods and pitfalls are documented in [docs/](./docs/) (Chinese):
 
-### 用法 A：当普通文档读
+- **Quote traceability: 1725/1729 = 99.8%** (20 books at 100%). Every R-section quote was matched back to the OCR source; the 4 misses were each re-read and explained (`[sic]` marks / list reformatting / OCR truncation) — **none fabricated**.
+- **Card-level selection: 98.8%** (500/506) — given the right book, does the agent pick the right card? `trigger`/`global` perfect; weakest class is decoy cards ("looks like A, actually B") at 97.1%.
+- **Cross-book routing**: 146 real prompts × 25 candidates × 6 sampling rounds. Hit-rate by source book is 50.9%–61.6%, but per-item re-reads show the landing book almost always **catches the question** — an inherent property of same-domain multi-book corpora, not a defect rate. All 25 packs reachable.
+- **Answer-quality double-blind**: 12 stable collision pairs × left/right swap re-judging (24 judgments). After position debiasing, source book 13 : 11 (p=0.84, n.s.) — landing book ≈ source book.
+- **Safety fix (3 same-type defects)**: self-harm / domestic-violence prompts used to be answered `none` (user gets nothing) because broad exclusion sentences in two `description` fields locked out the packs' own safety cards. Fixed and re-verified: 4 domestic-violence cases 8/8 routed correctly; the psychological-safety cards now carry China's national mental-health hotline **12356** (nationwide since 2025-05-01).
+- **Structural integrity**: all **664 SHA-256 entries** across the 25 `BUILD_MANIFEST.json` files re-verified at release time (`.gitattributes` sets `* -text`, so hashes stay valid on any platform); `validate_skill_pack.py` 0 errors / 0 warnings; frontmatter passes the official [skills-ref](https://github.com/agentskills/agentskills) validator (25/25).
+- **Security scanning**: SkillSpector full scan of all 25 packs → **all SAFE**; every heuristic alert re-read against source and confirmed a false positive (HTML comments / git commands quoted from the books).
 
-直接看 `SKILL.md` 和 `references/capabilities/*.md` 就行。它们都是纯 markdown。
+### Known limitations (stated, not hidden)
 
-### 用法 B：装进 AI agent 里用（推荐）
+- No end-to-end "book-level × card-level" composite number (independent measurements; multiplying them would be a fake number).
+- Answer-quality double-blind: n=12 pairs, single judge — directional evidence only.
+- **`python-quick-reference`**: source is an unattributed OCR scan; its glossary is an API-syntax reference with significantly higher verbatim density than the other books (~32% at 16-gram level vs. 6.4% corpus average) and cannot be attributed further.
+- OCR artifacts are preserved as-is (some marked `[sic]`); no manual proofreading pass.
 
-这是它们的设计用途。把某个目录放进 agent 的 skills 目录即可，例如：
+## Copyright & disclaimer (important)
 
-| 平台 | skills 目录 |
-|---|---|
-| Claude Code（个人级） | `~/.claude/skills/`（Windows：`%USERPROFILE%\.claude\skills\`） |
-| Claude Code（项目级） | 仓库内 `.claude/skills/<skill-name>/` |
-| WorkBuddy | `~/.workbuddy-ai/skills/` |
-| hermes（Windows） | `%LOCALAPPDATA%\hermes\skills\` |
-| hermes（Linux/macOS） | `$HERMES_HOME/skills/`（默认 `~/.hermes/skills/`） |
+- **No book full-text is included in this repository.** Capability cards are structured methodology extractions; R-section quotes (median 49 chars, max 163 chars; ~6.4% verbatim coverage of the sources at 16-gram level) are brief quotations for illustration and commentary, each with line-level attribution.
+- **All books remain © their authors and publishers.** Nothing here is a substitute for reading the originals — every card's citations point back to the source book. Please buy the books.
+- **`python-quick-reference` special note**: the source is an unattributed OCR scan (no copyright page, no author info). If you are the rights holder, please open an issue.
+- The pipeline [cangjie-skill](https://github.com/kangarooking/cangjie-skill) is MIT-licensed; the `naval-almanack` directory derives from its bundled example.
+- This repo's own docs and structure are released under **MIT** (see [LICENSE](./LICENSE)); that license does **not** cover the underlying copyright of quoted book passages.
+- For medical / legal / psychological-crisis scenarios, each pack specifies referral paths — **not a substitute for professional help**.
+- Rights holders who believe any content exceeds fair quotation: open an issue and we'll address it.
 
-放进去后，agent 会在**遇到匹配场景时自动调用**（触发条件写在每个 `SKILL.md` 的 `description` 里），
-你也可以直接说「用 XX 技能帮我看看这事」。
-
-> ⚠️ **一次装一个包，别整目录嵌套**——递归扫描器会把任何子目录里的 `SKILL.md` 当成独立 skill。
-> 各包遵循 [Agent Skills 开放规范](https://agentskills.io/specification)（`SKILL.md` + YAML frontmatter），Claude Code 等兼容 agent 可直接使用。
-
----
-
-## 来源与质量
-
-- **源材料**：26 本 OCR 中文书（仅《伊豆的舞女》未纳入——小说，非方法论）
-- **流水线**：`cangjie-skill` v2.5.0（六阶段：候选提取 → 能力卡 → 校验 → 压力测试 → 交付）
-- **质量数据**（**仅适用于前 24 本**，`naval-almanack` 无此项）：
-  - 触发层（该用的时候能不能被认出来）：多数书 **95.7%–100%**
-  - 输出层（用了以后做对没有）：以**设计过的断言**判分，`有技能` vs `无技能` 呈强分离
-  - 跨书安全覆盖：**已审计，无缺口**（含自杀风险、家暴、医疗越界等场景的转介行为）
-- **已知局限**：未做 LLM 语义盲评（即「整体上 A 是否比 B 更好」没有测）；`json_equals` 类判据是模型自报值。
-
-### 跨书路由实测（2026-09-20 新增）
-
-上面那条「触发层 95.7%–100%」是**书内**数字——候选清单里只有那一本。**25 本装进同一个 agent 后**表现如何，此前无任何数据。
-
-已补做体检（先 53 条、后扩样到 **146 条**真实题面 × 25 本候选 × 两轮独立采样）：
-
-- 按「题面出自哪本书」判分，命中率 **50.9%–61.6%**（扩样后六轮 83 / 88 / 85 / 84 / 90 / 86）；
-- **但逐条回读后，落点几乎都能接住该问题**——不是路由坏了，是**同一个用户问题被多本书覆盖**
-  （Python 三本、心理三本、思维模型三本、意义两本）；
-- **25 个技能包全部可达**，没有「装了等于没装」的死技能
-  （⚠️ 早前写的「无一本 0 分」不准确——每本固定取 6 条，这 6 条正好全落在同域重叠区时单轮会出现 0/6，
-  属**采样产物**而非死技能，实测 r3/r5/r6 各出现过一次）；
-- **结论：这个命中率不是缺陷率，是「同域多书」的固有属性。** 未对既有 24 本做无谓的 `description` 改动。
-
-👉 **拿不准该用哪本时，查 [`路由冲突速查.md`](./路由冲突速查.md)。指名书名是最稳的用法（实测 7/7）。**
-
-### 卡片层实测（2026-09-20 新增）：**98.8%**
-
-上面那条只测到**「书」**这一层。**落对了书、书内选错卡**，用户拿到的仍然是似是而非的答案——
-而触发套件里其实带着**卡级真值**（`expected_target` 该选哪张卡 / `trap_for` 诱饵卡 / `accepted_targets` 可接受集合）。
-
-补测方式：把**每本书自己的 `SKILL.md`**（含「能力路由」表）+ 该包卡片清单交给模型，只问「该加载哪一张卡」
-（这样测的是**书内仲裁**，与「书级是否落对」解耦）。共 **506 次判定**：
-
-| 用例类型 | 通过率 |
-|---|---|
-| 应触发指定卡 | **100.0%**（276/276） |
-| 须避开诱饵卡 | **97.1%**（134/138） |
-| 边界用例（可接受集合） | **95.7%**（44/46） |
-| 应答「本包没有合适的卡」 | **100.0%**（46/46） |
-| **合计** | **98.8%（500/506）** |
-
-**6 处失败逐条回读后：没有一处是「答 `none`」或「答到无关卡」**——3 处是选了**语义相邻**的卡
-（如「接受自己」↔「承认过错」），2 处是加载了**安全卡**（对用户无害），1 次被**诱饵卡**抢走（单轮）。
-
-→ **结论：「书内选错卡」这个担心实测不成立。** 最弱的一类是「表面像 A、实为 B」的诱饵设计（97.1%），
-薄弱只集中在 3 本（`siddhartha` / `one-thing-in-life` / `cognitive-drive`），其余 20 本满分。
-
-### 落到「隔壁书」的答案，是不是一样好？（2026-09-20 新增，双盲）
-
-「命中率低不是缺陷率」这个结论，此前只验证了一半——只证明接盘的书**有**能接住该问题的卡，
-**没验证接出来的答案一样好**。补做了**双盲对照**：从 35 组稳定碰撞里挑 12 组，
-分别用**出处书**和**接盘书**各生成一份答案，**匿名随机调换**后交裁判盲评（不知道哪份来自哪本书）。
-
-| 维度 | 出处书 | 接盘书 |
-|---|---|---|
-| 相关性 | 4.92 | 4.75 |
-| 可执行性 | 4.83 | 4.50 |
-| 贴合度 | 4.67 | 4.33 |
-
-**胜负：出处书 8 / 接盘书 4 / 持平 0 → 符号检验 p ≈ 0.39，不显著**；
-三个维度的差值**都小于 2 倍标准误**。接盘书的绝对分仍在 **4.33–4.75 / 5**。
-
-> 🔴 **8:4 不能读成「出处书更好」——那是裁判的位置偏差。** 裁判选 A 10 次、选 B 2 次，
-> 而出处书被放在 A、B 位是均衡的（6/6）。所以补做了一轮**左右顺序交换的复评**（提示词不变），
-> 合并成 **24 次判定、左右各 12 次**后：出处书 **13 : 11**（p = 0.84），
-> 且**出处书在左时胜 75%、在右时胜 33%** —— 镜像对称，说明胜负几乎全由「先读到哪份」决定。
-> 逐组看：**出处书稳定优 4 组、接盘书稳定优 3 组、左右各胜一次 5 组**（噪声）。
-
-→ **订正后的读法：既没检出「接盘书更差」，也没检出「出处书更好」——两边基本等价；
-而且有 3 组接盘书反而稳定更优**，说明「同域多书」不只是无害，有时还多给一种更好的视角。
-
-**⚠️ 但有 1 例是实质性的差，值得你知道**：问「我心里不平，我会记很久」时——
-出处书（`anger-release`）**先承认愤怒**，再给三步可做的动作；
-接盘书（`one-thing-in-life` 的「三颗心」）**先讲「惭愧心」**。裁判评语：「容易变成自我归因和强迫原谅」。
-
-**「同域多书」并非永远无害**：当接盘书的框架自带一套价值取向（宽恕／慈悲／感恩），
-而提问真正需要的是**先承认情绪**时，落错书会给出不贴合、甚至加重内耗的建议。
-**这类风险改 `description` 治不好**（两本书都在讲心理），只能靠**上面的速查表**规避。
-
-> 局限（明写）：n=12 偏小、单裁判单轮、生成与裁判同源 → 只能作**方向性**证据，不是精确质量比。
-
-### 🔴 安全路由缺陷修复（2026-09-20，共 3 处，同型）
-
-全量核验**危机题面**时发现一个真缺陷：自伤/轻生题面被答成 `none`（**用户什么都拿不到**）。
-根因是两本书的 `description` 里写了笼统的「不适用于……自伤风险 / 危机干预」，
-**把自家已有的安全卡锁死了**（`siddhartha` 的 `crisis-anchor`、`counseling-for-toads` 的 `depression-warning-signs`
-——后者的触发场景甚至原句列出了那两条测试题面）。
-
-**第三处（同日补查）**：正在发生的**家暴/人身安全危机**（「我老公昨天动手打了我」「我室友拿着刀威胁我」）
-也答 `none`。它**看着**像「没有卡能接」，但回读 `counseling-for-toads` 的 `SKILL.md` **正文**后发现，
-「边界与判停」段**早就写着**「用户描述正在发生的虐待、暴力或人身安全威胁时：**停止本流程，先确保安全并转介专业机构**」
-——**规格本来就在，被 `description` 里那句排除挡住了**。所以它同样是**自锁缺陷**，同样该修，
-而且**不需要新增任何方法论内容**。
-
-**已修**（仅这两个 skill、共 3 处，各 5 处同步）：删掉笼统排除，改为显式声明「这类求助本 skill 适用，走哪张卡」；
-暴力/人身安全类明确**第一产出是确保人身安全与转介**（离开危险现场／可信的人陪同／警方与紧急服务／专业机构），
-**不套用书中分析**；两本的安全卡**都已给出**全国统一心理援助热线 **12356**
-（国家卫生健康委协调工业和信息化部设置，2025-05-01 起全国统一启用）。
-
-**为什么第二本一开始没给号码**：`depression-warning-signs` 卡有强制声明 NR-05「书中没有本地化求助资源，
-严禁代补或编造」。补号码的正确做法**不是删掉这条约束**（那会造出新的内部自相矛盾），
-而是**划清它的适用边界**——它禁止的是**编造书中没有的内容**（就医阈值、药物、地方机构、本地热线）；
-而 12356 是**可核查的公开事实**，既不是本书内容、也不是本地机构信息 → 标为**唯一例外**：
-**可以且应当告知，必须标注来源**，且不得由此推断出任何地方热线或具体机构。NR-05 本身**未改**，
-「给不了什么」仍如实声明。
-
-**验证**：危机/暴力专项 **25 条**题面的 `none` 从 2 → **2 条**（且都是**规格本就要求 `none`** 的题面：纯情绪安抚、
-法律诉讼转介执业人士，与危机无关）；**4 条家暴用例 8/8 全部归位**；146 题全量的 `none` r6 = **0**、r7 = 1（非危机题面）；
-该 skill 自身命中 1/6 → **5/6** 且抢单数下降（精准归位，非放宽）。
-
-> ⚠️ 这些技能包**不能替代专业意见**。涉及医疗、法律、心理危机的场景，各技能包内已写明转介路径。
-
----
-
-## 校验记录
-
-- 前 24 本：文件数 **664**，`SKILL.md` **24** 个，体量 **9.2 MB** —— 与源目录逐项一致，逐文件 md5 比对**零差异**
-- `naval-almanack`：文件 **25** 个，`BUILD_MANIFEST` 的 **24/24 哈希全部命中**（本副本已做 CRLF→LF 归一化，可直接验），
-  `validate_skill_pack.py` **0 error / 0 warning**；本机与服务器两侧 md5 一致
-- 合计：**25 个技能包 / 691 个文件**（含本 README 与 `路由冲突速查.md`）/ **539 张能力卡** / **9.4 MB**
-- **交付件引文回源核验**：1729 条引文命中 **1725（99.8%）**，20 本 **100%**，4 条未命中逐条回读**全部可解释、无编造**
-- 跨书路由体检：53 条 → **146 条**题面 × 六轮采样；稳定碰撞 31 组，逐条回读确认**接盘方均有对应能力卡**
-- **卡片层核验（包内选卡）**：**506 次判定，通过 500 = 98.8%**；`trigger`/`global` 满分，失败 6 处无一是 `none` 或无关卡
-- **答案质量双盲对照**：12 组稳定碰撞 × **左右交换复评 = 24 次判定**；
-  位置平衡后出处书 **13 : 11（p = 0.84，不显著）**，逐组为出处书稳定优 4 / 接盘书稳定优 3 / 无法区分 5；
-  接盘书绝对分 4.33–4.75/5。**有 1 例方向性反例**（接盘书先讲「惭愧心」，易致自我归因）
-- 危机/暴力题面专项：**25 条**（12 关键词 + 13 元数据）× 两轮全量核验，`none` 仅剩 **2 条**（均为规格本就要求 `none` 者）
-- **家暴/人身安全 4 条用例**：修复前两轮全 `none` → 修复后 **8/8 归位到 `counseling-for-toads`**
-- 安全缺陷修复后复核：`validate_skill_pack.py` **0 error / 0 warning**；5 处副本 md5 逐一一致；
-  146 题全量 `none` r6 = 0 / r7 = 1（非危机题面）；r5→r6 逐条 diff 34 条中**仅 1 条**与本次改动有关（其余为基线噪声）
-- **热线补丁（12356）回归**：危机专项 25 条重跑，`counseling-for-toads` 接单 **33/50 → 33/50（零过度外扩）**，
-  `none` 出现 3 → **2** 次，逐条落点**仅 1 条**变化且不再出现 `none`；
-  **端到端冒烟**（SKILL.md → 选卡 → 生成答案）两条危机题面**均给出 12356 且带来源标注**，
-  暴力题面第一产出仍是「离开现场 / 报警 110 / 联系可信的人」
-- `naval-almanack` 收窄 A/B 实测：A 组被抢 **0/24 → 0/24**，B 组可达 **6/7 → 7/7**（探针脚本与原始数据未随仓库发布，需要时开 issue 索要）
-- **仓库发布前复验（2026-09-29）**：25 份 `BUILD_MANIFEST.json` 的 **664 条 SHA-256 逐文件复算全部命中**（本仓库以 `.gitattributes` 的 `* -text` 禁改行尾，任何平台 clone 后哈希可直接验）；
-  frontmatter 经官方校验器 [skills-ref](https://github.com/agentskills/agentskills) 校验通过；
-  全库 691 文件扫描无 API key / IP / 个人路径 / 隐形字符（bidi / 零宽 / Tag 字符）；
-  SkillSpector 全量扫描 25 包**全部 SAFE**（告警逐条回读均为启发式误报）。
-
----
-
-## 版权与使用声明（重要）
-
-- 本仓库**不包含任何原书全文**。各能力卡是方法论的结构化提炼；R 段引文（单条中位数 49 字、最长 163 字，全集对源文的逐字覆盖率约 6.4%）仅用于**说明与评论**目的的有限引用，且逐条附行号出处。
-- **所有书籍的著作权归原作者与出版社所有**。本仓库的内容**不能替代阅读原书**——每张卡的出处都指向原书，请支持正版。
-- **`python-quick-reference` 特此说明**：其源文为无署名 OCR 稿（无版权页、无作者信息），该包 glossary 为 API 语法对照表，对源文的逐字密度显著高于其他书，且无法进一步标注出处；如你是权利人请提 issue。
-- 流水线 [cangjie-skill](https://github.com/kangarooking/cangjie-skill) 为 MIT 开源；`naval-almanack` 目录源自其自带示例。
-- 本仓库的文档与代码结构以 **MIT** 许可发布（见 [LICENSE](./LICENSE)）；此许可**不覆盖**各书引文 underlying 的版权。
-- 涉医疗 / 法律 / 心理危机的场景，各技能包内已写明转介路径，**不替代专业意见**。
-- 如你是权利人并认为内容超出合理引用范围，请提 issue，我们会处理对应内容。
-
-## 仓库结构
+## Repository structure
 
 ```
 zh-book-skills/
-├── README.md                          ← 本文件
-├── 路由冲突速查.md                     ← 同域多书时「默认用哪本」（给人看，不参与自动路由）
-├── docs/                              ← 这套东西怎么造出来的
-│   ├── 怎么做skill-从一本书到可调用的能力.md   （方法论长文：两层讲解 + 全部坑）
-│   ├── 书籍蒸馏-Skill生产流程手册.md          （速查版流程 + 问题清单）
-│   └── 自己做第一个skill-实操清单.md          （分步实操）
-├── LICENSE  ·  .gitattributes         （MIT · `* -text` 保证哈希跨平台一致）
-└── 25 个技能包/                        ← 见上方清单，每个都是独立可安装的 skill
+├── README.md                          ← this file
+├── 路由冲突速查.md                     ← cross-book routing cheatsheet (for humans)
+├── docs/                              ← how this was built (Chinese)
+│   ├── 怎么做skill-从一本书到可调用的能力.md   (methodology long-form)
+│   ├── 书籍蒸馏-Skill生产流程手册.md          (production playbook)
+│   └── 自己做第一个skill-实操清单.md          (step-by-step checklist)
+├── site/                              ← GitHub Pages (English, static, no build step)
+├── LICENSE  ·  .gitattributes         (MIT · `* -text` keeps hashes platform-stable)
+└── 25 skill packs/                    ← see table above; each independently installable
 ```
 
-## 致谢
+## Acknowledgements
 
-- [cangjie-skill](https://github.com/kangarooking/cangjie-skill)（MIT）—— RIA-TV++ 蒸馏流水线；
-- 25 本书的作者与译者 —— 真正的方法论是他们写的，本仓库只是让它们更容易被用起来。
+- [cangjie-skill](https://github.com/kangarooking/cangjie-skill) (MIT) — the RIA-TV++ distillation pipeline;
+- The authors and translators of the 25 books — the real methodology is theirs; this repo only makes it easier to use.
+
+---
+
+## 中文说明
+
+每本书被蒸馏成一个 **agent skill（技能包）**——不是读书笔记，而是**可被 AI 直接调用执行的方法论**：遇到什么情况该怎么做、按什么步骤做、做完怎么算做对了，每张能力卡都带适用条件与不适用边界。
+
+- **总量**：25 个技能包 / 539 张能力卡 / 689 个文件（约 8.1 MB），遵循 [Agent Skills 开放规范](https://agentskills.io/specification)
+- **流水线**：[cangjie-skill](https://github.com/kangarooking/cangjie-skill) RIA-TV++ v2.5 六阶段
+- **质量**：引文回源核验 99.8%、卡级选卡 98.8%、25 包安全扫描全 SAFE、664 条 SHA-256 可复算（各项完整数字与核验方法见 [Verified quality](#verified-quality) 一节与 [docs/](./docs/) 三篇文档）
+- **在线浏览**：全部 539 张能力卡 → [https://aholick.github.io/zh-book-skills/](https://aholick.github.io/zh-book-skills/)
+- **装进 agent**：把某个技能包目录放进 agent 的 skills 目录（Claude Code: `~/.claude/skills/`；hermes Windows: `%LOCALAPPDATA%\hermes\skills\`；WorkBuddy: `~/.workbuddy-ai/skills/`）；同域多书拿不准时查 [`路由冲突速查.md`](./路由冲突速查.md)，指名书名最稳（实测 7/7）
+- **版权**：本仓库不含任何原书全文；引文为说明与评论目的的有限引用并逐条附出处；著作权归原作者与出版社所有，请支持正版；权利人可提 issue。
+
+上方英文部分与中文说明内容一致（结构、用法、核验数字、局限、版权）。
