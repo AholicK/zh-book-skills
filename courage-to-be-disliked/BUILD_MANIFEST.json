@@ -1,0 +1,49 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "SKILL.md": "cfc55b0f898e23ef478325dceb211bcc72808f1a9005d5f334ee4526819e1b15",
+    "references/capabilities/being-vs-doing.md": "fd1e297842e7bffab3b9ac23c0e6f38805c6c667803322fdced450f84b376d0d",
+    "references/capabilities/community-feeling.md": "7f9330ec7920ca756043900e425a85a88ca3e9545d0956ec3b651caa11a6db4c",
+    "references/capabilities/competition-exit.md": "4e5dbd24f4d879bc241dbc1a8fdf133eb6e49f10ea7328d45cf52dde2344bc7a",
+    "references/capabilities/contribution-and-happiness.md": "544371788112964043b147ccc1c1f6ecdfcc163aa6d4360d3aea1045af4a6a5d",
+    "references/capabilities/credit-vs-trust.md": "2e96ddc2f48831f8321cf47d2b27a61ec80477be3f5af7ac81a03eb6afbda8c4",
+    "references/capabilities/emotion-teleology.md": "7ebbcb7d403c153645eee9671847fb8f32c8ca38294ed079dbfae501a827261c",
+    "references/capabilities/family-tasks.md": "465c405a2d21f531ba32f1b01ddbde59482115f9ccc92095b25d2e848543498f",
+    "references/capabilities/freedom-from-approval.md": "e3e30459f67abcca5a49915f6da1782238ceacf42aa1480758c2380c127ea908",
+    "references/capabilities/here-and-now.md": "610068fcb83e0994173cfd0ae4b02ca508cca2fc4af099de437d18229ef4bf53",
+    "references/capabilities/horizontal-relationship.md": "fedfc2e69281fc8a67316de6fc673244421b6c41fc0ec5da2f1db0c82e97e2cb",
+    "references/capabilities/inferiority-diagnosis.md": "35f0081af5df15bc7f6070cd4c12f051875ef62bc97c596152b7136a45bd3c60",
+    "references/capabilities/life-harmony.md": "9047dad5968cb2e0a1c627c125a75c7c68403453e649c6cdc328de6706e9b198",
+    "references/capabilities/life-meaning.md": "629afe6e6cb0a8a16780f5bcae8bb9858533c219b1b10f62045d331fba5c416a",
+    "references/capabilities/life-tasks.md": "a29883eb38e9089a70dc02b3e05238e633239f0977656b558f072f0e83425554",
+    "references/capabilities/power-struggle.md": "50cf5303ea10eab66a888e2f2b2e8e972d7f2fc2d4e198e1f49691f6328f7598",
+    "references/capabilities/problem-behavior-analysis.md": "56e73375223a987dd0ba2a8e23911716a959dce3bcd63402204c28568d4806fc",
+    "references/capabilities/self-acceptance.md": "c1587ef78b87be415e8811ef24af46e76352947039dbbe221e37e086e22c13da",
+    "references/capabilities/separation-of-tasks.md": "1007f163fb37db9f4405bea94b2e3e28c86710d715ed9ca125c0ceb005019824",
+    "references/capabilities/teleology-reframing.md": "a18cbce7c7e63c469fa378646feec68933abd869294fa6a2b2f2c0ebf585fcd7",
+    "references/capability-index.md": "f9b42e17a290fbc93e166941ea7a93d385595ce699dbb75e5c2a59053fcea197",
+    "references/cheatsheet.md": "43e6db102147144f6c2bad58718c03cdee3c277270a5f8d3930fa980587e1ecc",
+    "references/glossary.md": "2638c23ae0c882fd6a1d2fca752e85a6e25986eadf22a5db1a9f5d0af921a82e",
+    "references/overview.md": "9573221f997bc5e705456b3d33d1ee951d24d57ae4eedb93726734fbdc4dc072"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.courage-to-be-disliked",
+  "bundle_sha256": "0c144ccaede6235a3cb4cbcabe8193adc52ec9ee4ff421df69baeb0a988f011a",
+  "variant": "single",
+  "run_id": "run-20260917-123604-6e5937",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 7,
+    "capability_count": 19,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 7 个晋级 Skill，共 8 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

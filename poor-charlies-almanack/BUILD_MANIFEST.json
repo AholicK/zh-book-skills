@@ -1,0 +1,51 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "SKILL.md": "2cf43d57d7e2fa374648b483668e6bac04c7ee868ee03f99938b668fd0f6aa47",
+    "references/capabilities/accounting-red-flags.md": "c7cc407b496090de747dc868cd7005b42e9d0d36bcc8a4aa82c6318d97f26c81",
+    "references/capabilities/anti-example-education.md": "848ed7f6fe9aca2e698c352855d13c431fa515f23e02594bba9b747bc891e98e",
+    "references/capabilities/bad-news-discipline.md": "549fbfcb47f8a4e227d561c713c5f0e253a7b6fbfdc75c4846046bcc2e0edbec",
+    "references/capabilities/character-and-career.md": "b1d55d606b78f3807e9395aec55b23fb168969af8bae7ea5c655a51e7e0889fe",
+    "references/capabilities/circle-of-competence.md": "625453076ec6de3a65a11a0fbf5b2d717dbb09c2723dac15d48675e26d90cd2c",
+    "references/capabilities/concentrated-investing.md": "d8e5cbf6aaeba59d9e8d42e9c195b37ab72e2987fb112ea7a0dd6bffc296f561",
+    "references/capabilities/expert-audit.md": "2576b058aba08fe9c921598968b377df60920659a80aefd8cdb0e3ff2f2f2857",
+    "references/capabilities/incentive-design.md": "8b5004a583d426af44c1e4ace9729b4f242aa495edadd47f2b05e3d4933f4140",
+    "references/capabilities/independent-judgment.md": "a2078f9806b03ec747d90e50b46e0bc7d8a42043a2e99888fb1cda9b763e8459",
+    "references/capabilities/inversion.md": "f39017ae37c2602966959328a7e9d619349d2702333d7a898806335c6f9b0e71",
+    "references/capabilities/investment-pitfalls.md": "ed1fbe14164e8a34a8e3c0abf161b7211faeede05c4f298fbfe6cee5c8741dd9",
+    "references/capabilities/late-life-planning.md": "1a14faa95e3a3c494500d905c571a71b913937efe6383658527cb7642528c0c2",
+    "references/capabilities/learning-machine.md": "a235d5e6a014fad5b06a07f8622f39f45b323d992a977781c36974b31259b8b2",
+    "references/capabilities/mental-models-lattice.md": "c6643411c656ba8c124e513d02c6fd0b096a2e34ed49de02b6c66eeb5c4cd241",
+    "references/capabilities/mental-resilience.md": "1f450bf0bdf779b2248b0c2bd10455259280a471e9bd430e4be4efb14da831d2",
+    "references/capabilities/misjudgment-checklist.md": "a4fdf49c88eb678638b957bd5134de31e66c659578c62413909d11686f9ce39a",
+    "references/capabilities/personal-finance-rules.md": "c940e67e184e5c3c41ff1e5d3452e44e7ff48c8e85da114b790d29f28ec14fb1",
+    "references/capabilities/persuasion-by-interest.md": "dc7fddf4eb9eeaf441d5ddf74345fed0eaf901f1048c4b2fc78e5f1f7d098c6e",
+    "references/capabilities/scale-advantages.md": "f93b173bb94401b818601f97389687b7d0e454bf3a588ad9426b0aace21542cc",
+    "references/capabilities/technology-second-order.md": "b5e05fcbc2ff250fd526292dc1170b4ade57ff4be6f0bb02cd76011c2e7149ea",
+    "references/capabilities/two-track-analysis.md": "824f3af12f7cf948697397ed3856d89697ee0faaf61e9235ac82f8cdb3f26895",
+    "references/capability-index.md": "e3382e338f9b02ac07cd1d654aef256ee9c505887b7485a6d8e6b796581713d4",
+    "references/cheatsheet.md": "a096540df76e7dbb28991248e976b28c7291a4d12395c1cc7702f9c037ce8a3c",
+    "references/glossary.md": "5e1e1df9c76e410d6bda9f7e317267ec5c229faa474a25b1a1085aa7c630334f",
+    "references/overview.md": "4470e2d93078b34d25b537a43a89df070851d31726743ad8d09eb4d7ac8dcdb2"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.poor-charlies-almanack",
+  "bundle_sha256": "f51113c339f0cc8d1d1b8622ab00747ea76ac7d41fee3a6cbf2c2caf5b19d843",
+  "variant": "single",
+  "run_id": "run-20260917-202707-bd3012",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 7,
+    "capability_count": 21,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 7 个晋级 Skill，共 8 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "SKILL.md": "cf9e686fe748c7ccb9baa822a93a790d7f7903fc4963fae0355ee1046493f6fb",
+    "references/capabilities/absurd-freedom.md": "7a063f033e2aade50827b9a6ab05793a21dfb1efee10bf518bc2ac98667c4081",
+    "references/capabilities/absurd-portraits.md": "b87cf6b8fd00142a17f943074c87d4681cafad73b7aa636e600e4e3304ab3093",
+    "references/capabilities/absurd-structure.md": "ce983d027a5e2b5605bb1b97fd7b77827c6bff9a21f74545465d7225b698d802",
+    "references/capabilities/absurd-work-test.md": "8d3feee12e8d0abcd87023fee7b054a7c084c72d563019c6da71f9d003731321",
+    "references/capabilities/betrayal-point.md": "49c3e1c517ae97ffde6ca041ecbcaa37b69b9c24b6344ffcffbf7540216ff771",
+    "references/capabilities/creation-discipline.md": "bba09e077b87937c4ab08391a14880283c91469ae2bbd39aab6d5349722b100c",
+    "references/capabilities/hope-detection.md": "571cf924c904912849264eabd83ce3a71249b57c7b6be4a9ddee5b634678dee3",
+    "references/capabilities/leap-detection.md": "09fcde50f0211fde601ec8aa367ca229b51affc5d1f9870e9b9e0c3bfa5489e2",
+    "references/capabilities/logical-suicide.md": "f6d258ebfb7cc69e9b930dfac063392fba3bd55f82812450784921c4282435ae",
+    "references/capabilities/quantity-ethics.md": "50097852fea628f4d36ba9aa808ac8e20fb521161d8a24513e3043920cc936a1",
+    "references/capabilities/reflexivity-check.md": "2f12bf203ac44c215235f99034e68edf32169e8057754b735e15bd0871e6f441",
+    "references/capabilities/revolt-genealogy.md": "8a3d04efc757e29c2b68b54873332277400612fd4018e943fcf3c3839d018690",
+    "references/capabilities/revolt-overreach.md": "22863f1496458080ecbaf25f2b7623195bda2abebcd6ce9152737e6bf508c646",
+    "references/capabilities/sisyphus-model.md": "fc1e0c0d17cfe41131213370820550b17ef430c964a2475d8b259231e93b9687",
+    "references/capabilities/suicide-question.md": "636bf352a5863fd788c20caa7f8dea5e94ab6d7e1cd49731e965993e1fa26625",
+    "references/capabilities/three-consequences.md": "2346e4fbc5c87178c5f71edbe81f83b9ddebc6f3e51f3b0a82d8243002765e84",
+    "references/capability-index.md": "3cf4c54e863e13744601c3c08fe1bb97d6293f2b214b889ace75f72b1b763ccd",
+    "references/cheatsheet.md": "35c1bddd42dd7d33951f08c95c933eadf5abb4dfbb26d65e85d34c677e31bd59",
+    "references/glossary.md": "d676a6e7699607cb34587f72368aa127e7cb01ef40ad9fd668d5c8c407591a6b",
+    "references/overview.md": "36bdd0ae0070039e8002656d98f69edfa0b9b96ee4bbb34282d4ff5969c1a713"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.myth-of-sisyphus",
+  "bundle_sha256": "cd1bdb7b94c0873bad8f5077b9381e08de11ece2ffa100ff997e6954a8b0bde3",
+  "variant": "single",
+  "run_id": "run-20260917-184531-967929",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 7,
+    "capability_count": 16,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 7 个晋级 Skill，共 8 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\alienating-self-check.md": "8b7fa31cb289b8c2b81f44104b78991bb4c6902b15016a61ce1cb3c7dd75a167",
+    "references\\capabilities\\choosing-over-have-to.md": "2031d6c9ab53b13cace5ef076ace668a447c043ef15383459e91538b11f15c18",
+    "references\\capabilities\\empathic-listening.md": "d9b4d19edfb8ba77bac0cb874025692891775443f5f3f04c8e275625143cde7e",
+    "references\\capabilities\\expressing-anger.md": "bc6c349063f5591c414b73c8b283cd0afff1e68e407b71d35c333aab7e170ab6",
+    "references\\capabilities\\expressing-gratitude.md": "dacde932ce832b7cf3fbb42d584f6d234d7aaf1d883e92ca4b983b06c28a1345",
+    "references\\capabilities\\feelings-to-needs.md": "9ea1985c35f555637410d277e6f307ff7ca2565666c95c7447b367beaf1b3475",
+    "references\\capabilities\\feelings-vs-thoughts.md": "3fd5ad06af43a21aa4aed21a09922b399f06b0db235d7b3091f598f4e3f180d3",
+    "references\\capabilities\\four-part-expression.md": "fff3c7ddc3beee9dfaaedf324271774b411415ae3b7447212483d68ddb19b691",
+    "references\\capabilities\\inner-conflict.md": "ef0cd504ed01025c547ff2a5d0e8d2de99721d41d2a40e9caae072c1f0dee28a",
+    "references\\capabilities\\observation-vs-evaluation.md": "005c1fb300cb31e49a0066a7be249010cf6b1293c21d4a440dfb05a404a4f640",
+    "references\\capabilities\\protective-force.md": "b4ac7ee15c9da1a26c2aee640bf383248d260adfe4c68e4cb3b0a507f19dc526",
+    "references\\capabilities\\requests-vs-demands.md": "a2e25139a299565ea77cd694238ed0f77cdf48ba0eb97f11402cc07c1c4285cb",
+    "references\\capabilities\\self-empathy.md": "77eaf3356fcd273f0715ee03819b3b7d55e0fde5a87e38267e55077d47973c98",
+    "references\\capability-index.md": "72991764f6b586dedc575cd5c75ab995dd557f60e2eaa1781343ff6a7351c165",
+    "references\\cheatsheet.md": "6fd3902ace6805567b308c84e5ab202c49de1e1d9d7979e7bd7b7d020e149bbe",
+    "references\\glossary.md": "ef90bda8002b61a5756394bd09f330224ddd7cb7616b9fc11cbf60100c20c86b",
+    "references\\overview.md": "70cf7ae0527950a146864cffd28d351efd58d0fc837b3edbb5d344adc70484ca",
+    "SKILL.md": "d422a0d06ce837eb2f0ecd9c356bb788411d58d89c2f2e8b4085e87f3cc564ab"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.nonviolent-communication",
+  "bundle_sha256": "8dbdb9f31eeebffe9f33594cf1a9ef549ae7e9c9dd0ecf4f55f23480c29c816b",
+  "variant": "single",
+  "run_id": "run-20260917-003342-973226",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 7,
+    "capability_count": 13,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 7 个晋级 Skill，共 8 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

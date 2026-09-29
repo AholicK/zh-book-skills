@@ -1,0 +1,62 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "SKILL.md": "ed12347bae37f1a35203a28d32b1b1aaca0ec92c7d20abe770564e2650fa2060",
+    "references/capabilities/breaking-the-cycle.md": "56da3789bd38c4035557a9301365ea7b3528db866997e992f76894f62452648c",
+    "references/capabilities/crisis-anchor.md": "ac1d0ce01f7777896cdc3631e673e425080024c29a2dabde5e8661927650c5ff",
+    "references/capabilities/farewell-structure.md": "b8a322164336e0d95e125ea274e4b4521d553b3fc2cfed26c62b187bc34dfb4b",
+    "references/capabilities/firsthand-tasting.md": "09aa2ef5be58142f1c678eae33224a88e2b752faf44ac58eac17ecbf94b7b192",
+    "references/capabilities/knowing-the-self.md": "2c732714fb6c556f350a0806b571c39eca36e5a8f8d981e4736c8ee68d4d5ebc",
+    "references/capabilities/leaving-the-teacher.md": "1066c081caed6a8177ab6912bfa0fed0a0053be0f94dc3dd39e980c3f896dda3",
+    "references/capabilities/letting-go.md": "b5f836470aabc3c131f9a1bd5a2b3250f067f5a2181316cad8ae4f9c02a5f7b4",
+    "references/capabilities/limits-of-words.md": "738fe9f7bcb01421780d0799b3737b648c57de62486605f9e808a1b2cbd79f20",
+    "references/capabilities/listening.md": "b1e45263a22253209d361365a3db653f9b1029fd9522dcedcbfc7a3f6e7a4cdf",
+    "references/capabilities/loving-the-world.md": "eb2aa61354416733533b11822999be4b17d297280c0941371fb3f06e49c41e83",
+    "references/capabilities/river-learning.md": "62c34550d72040d3bf0718e48fd74c12e414e916a6345c35d52b37025c8a3a1e",
+    "references/capabilities/seeking-vs-finding.md": "7c61b65013181b604a8cd528092570ec1c2827ccff48cf36f607bad51f7f9fc0",
+    "references/capabilities/spectator-check.md": "c9d306a45adbf5aa16e322cffaf5c17a28d4576fc32e7c0e8d8eceb6fa2740d1",
+    "references/capabilities/star-and-leaf.md": "71e15a938b8584acbfb36dfb904683ae2f30bf4b9cdedbf284e5ebe1892a1952",
+    "references/capabilities/stone-in-water.md": "16990139e9a9e33a54e1d2de8eedc534b38b5ceefc4155661749321138af88ba",
+    "references/capabilities/three-arts.md": "1abc2a48bfeb469e5721d70556a7f5009f82927fbc6de1903c79252775e1d8db",
+    "references/capabilities/time-perspective.md": "80e73ce988751082777bc3c751432899f891553367e3fffedad27da1624cbb90",
+    "references/capabilities/transforming-the-wound.md": "a415552d1a85c89f12c6e246a3cf790c6e8a1758880de88a2f4a25c08d36557d",
+    "references/capability-index.md": "ee8929797e9836c73aefe68818dd7db8d27455885b00e1e7047eeead0fa325b6",
+    "references/cheatsheet.md": "a14837e14b3a8f80ac2bc64b433d1dc32d7227a1c21ad44ed5b5313b3c5a1352",
+    "references/glossary.md": "99900836232f1119750f82320379f7a1f3858c83f5620b9d5e97cf1338525eb4",
+    "references/overview.md": "281000096f5626aba3321b1ad28941de800d8ed4a0613f384103922fabe485be"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.siddhartha",
+  "bundle_sha256": "1a13cfb5c7d495c13f018dd6d289ad048f0dd5f480f0fbbe1530eed9cd069fb5",
+  "variant": "single",
+  "run_id": "run-20260917-035958-5d7fcc",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 7,
+    "capability_count": 18,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 7 个晋级 Skill，共 8 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  },
+  "local_patch": {
+    "date": "2026-09-20",
+    "scope": [
+      "SKILL.md",
+      "references/capabilities/crisis-anchor.md"
+    ],
+    "reason": "安全路由缺陷修订：急性情形也要仍选本 skill，避免被读成「都不适用」而答 none",
+    "detail": "本轮第二次修订（同日）：第一版把「急性情形」写成「本 skill 不做急性处置」，被路由读成排除条款，实测使 thinking-fast-and-slow::g-2（全语料最急题面：弟弟发「我知道该怎么走」后失联）出现 1 次 none。改为「急性情形仍然适用（不要判为 none），只是第一产出换成紧急求助」。原缺陷描述见下。\n\n原缺陷：description 的「不适用于」把自家危机能力挡住了。description 原文写「不适用于：正在发生的自伤风险或人身安全危机」，而触发套件把 crs-p1/crs-p2（自伤念头）标为 should_trigger，且 crisis-anchor 卡的 A2 触发场景明确覆盖这两条 —— 产物内部自相矛盾。系统级路由实测（25 候选、两轮）对这两条均答 none，用户拿不到任何 skill，精心建好的安全分级与转介机制无法加载。改法：description 与正文「不适用」清单中删除「自伤风险」一条，改为显式声明「含自伤/轻生念头的场景本 skill 适用，走 crisis-anchor 做安全分级与转介」；并在 crisis-anchor 的转介处补上具体号码「全国统一心理援助热线 12356」（国家卫健委协调工信部设置，2025-05-01 起全国启用，来源 gov.cn）。注意：bundle_sha256 仍指打补丁前的整包，未重算。",
+    "original_sha256": {
+      "SKILL.md": "341d11589ed20f4bea68b4883d841f280a769455a1d10708bd1cb7df508ab37b",
+      "references/capabilities/crisis-anchor.md": "f385dad44215feb2403c893162c947f78501b10b8bd6a73a20e9be7cc91953f5"
+    },
+    "applied_by": "25本跨书路由体检（优化交付-20260919）"
+  }
+}

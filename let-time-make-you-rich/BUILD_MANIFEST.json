@@ -1,0 +1,45 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "SKILL.md": "e393bfd835905ea8ed8da363f87410137761c22140aec8b3343c54dd7b9c077d",
+    "references/capabilities/active-passive.md": "138c33456adf4180e4f5cbd9abcf8b0ecc9e2993093302c56085c035abbe9433",
+    "references/capabilities/cut-the-past.md": "7e5e570427a52061b07545dbd4d8adbcd4042750c1b37832a597afa74429c18c",
+    "references/capabilities/dca-return-calc.md": "f45785615221c0cc5dbe2a0876816369d9a61e4a5c3c4196563ba490df58f556",
+    "references/capabilities/environment-building.md": "604dcea11b829d04f0a99e6ab8f155f7925eff9897974aeae2c1450f5e9d58e3",
+    "references/capabilities/four-elements-plan.md": "6970ecea09d3b885f96098af28e183da827f19fecac55d301a18f8eba55ec22c",
+    "references/capabilities/half-baked-check.md": "69d150e786dde5f72ad54cc31bc25bd3d1134239ad80d0cc517106e90617fb4d",
+    "references/capabilities/ignorance-vs-stupidity.md": "205056562da7d4b23c4a0f0adc1f2252a1e52030abc003661b5b3497790343eb",
+    "references/capabilities/long-term-cycle.md": "af09da2b5bda1a6bb63404bb64eeb1e82deaa35ba8819e8bd51723377cbad34e",
+    "references/capabilities/one-move-simplicity.md": "413e451a46e2bb6f7a70d1460238067cf3859f8d6f89b429a73d1edf2cca3886",
+    "references/capabilities/opportunity-cost-dilution.md": "b10fd18da776e7ee86baf0781009599c64c0decac448c5cd375387457da4a6b8",
+    "references/capabilities/proactive-boundary.md": "17e9fcfec9d08f5fed41c271c2de99cbbb47367dc0aa3d5cb29599ec422ac121",
+    "references/capabilities/qualification-check.md": "17aab6a958882898954810f5789ab3942a3b69acf3a00277a46ee6e756c0238c",
+    "references/capabilities/target-screening.md": "46f8d000da9bddd3fd58149cf71e6f16a278c1425bd6d19bb8a44c1463050718",
+    "references/capabilities/target-spotting.md": "35a5e836981deaa7d52d94911f41a1484b12bb3c3adae21355a6f80608265950",
+    "references/capabilities/time-ledger.md": "2ddf2e7e70775326f0b70da6d366769b430e2c98c9408f0570fec011f94275ad",
+    "references/capability-index.md": "5dd960e2310dbc68fd226a01a7c032fbdadce4ee239bffa11d6e47f1bce8ab0e",
+    "references/cheatsheet.md": "c251d18901743c8279118d6050d319d90c342f942ffc0ed25b7a21d14beed97f",
+    "references/glossary.md": "d239438d4ffb4ff7fc853f25e16468c1481526e02a5b066884c4afac261d58d8",
+    "references/overview.md": "730792acdf6f7d3c6c1afc7df7758718d31fb15203e96330681e1d5751d0ae38"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.let-time-make-you-rich",
+  "bundle_sha256": "ed8ab82f96c37ad8ca059b6246483a586187a68a4cae3574f1e78cf932a1e677",
+  "variant": "single",
+  "run_id": "run-20260917-030300-4d2be9",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 7,
+    "capability_count": 15,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 7 个晋级 Skill，共 8 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

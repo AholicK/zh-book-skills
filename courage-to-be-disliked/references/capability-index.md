@@ -1,0 +1,23 @@
+# 能力索引（完整版）
+
+| capability_id | 标题 | 重要度 | 意图 | 关键词 | 能力卡 |
+|---|---|---|---|---|---|
+| cap.courage-to-be-disliked.teleology-reframing | 目的论：改写「过去决定现在」 | critical | 反复用过去解释现状，讲完只剩无力；想改变却长期没动，想知道自己在维持什么；把困境归给环境或他人，想找回可行动的部分；面对「我就是这种性格」式自我认定 | 目的论、原因论、决定论、心理创伤、过去、改变、生活方式、teleology、past、reframing、can't change | capabilities/teleology-reframing.md |
+| cap.courage-to-be-disliked.emotion-teleology | 情绪与症状的目的分析（怒气与症状管理） | high | 自认脾气差、控制不住发火，事后后悔；觉得不发火别人不当回事；被反复出现的症状（脸红、紧张、心慌）困住；想知道能不能用「我控制不住」解释情绪 | 愤怒、脾气、情绪、发火、症状、脸红、手段、anger、temper、emotion、symptoms | capabilities/emotion-teleology.md |
+| cap.courage-to-be-disliked.power-struggle | 权力斗争识别与退出 | high | 被当众羞辱、讥讽后反复回想，想回击又觉得不值；争论从具体问题滑向互相指责、翻旧账；明知对方在挑衅，不知道怎么「不回应」；吵赢了对方开始使绊子、冷暴力 | 权力斗争、挑衅、争对错、复仇、不回应、承认错误、争吵、power struggle、provocation、walk away | capabilities/power-struggle.md |
+| cap.courage-to-be-disliked.inferiority-diagnosis | 自卑感 / 自卑情结 / 优越情结三分诊断 | high | 反复用「我因为X所以做不到Y」解释不行动；弄清自卑感与自卑情结的区别；遇到爱炫耀、爱讲不幸的人，想理解其机制；自我怀疑：这是正常欠缺感还是已经变成借口 | 自卑、自卑感、自卑情结、优越情结、外部因果律、夸耀不幸、inferiority、complex、superiority | capabilities/inferiority-diagnosis.md |
+| cap.courage-to-be-disliked.competition-exit | 竞争退出与伙伴重构 | medium | 看到朋友同学过得好，祝贺完心里发酸；长期活在「被比较」的叙事里；赢了也不安心、输了更难受；想退出比较但怕被说认输躺平 | 竞争、比较、嫉妒、内卷、理想的自己、伙伴、comparison、jealousy、competition | capabilities/competition-exit.md |
+| cap.courage-to-be-disliked.life-tasks | 人生三大课题与人生谎言 | medium | 对某人越看越烦，纠结是挑剔还是该结束关系；分不清烦恼是事务/社交/亲密关系问题；想远离却一直在收集对方罪证；想给关系做一次清点，找到回避的那一栏 | 人生课题、三大课题、人生谎言、逃避、关系、借口、life tasks、life lie、avoidance | capabilities/life-tasks.md |
+| cap.courage-to-be-disliked.separation-of-tasks | 课题分离判定与执行（核心程序） | critical | 被父母/伴侣/亲友反复干涉，说不听也吵不过；忍不住要管别人，越管越对抗；上司不讲理不认可，纠结讨好还是硬刚；想知道「到底该为谁的事负责」 | 课题分离、界限、干涉、结果承担、放任、separation of tasks、boundaries、interference | capabilities/separation-of-tasks.md |
+| cap.courage-to-be-disliked.family-tasks | 亲子/家庭课题分离与援助原则 | high | 父母反对你的工作/婚恋/生活方式；孩子不学习、闭居、不工作；管也不是，不管也不是；家人反复「为你着想」式干预，既愧疚又烦躁；想帮成年的家人改变，越帮越对抗 | 亲子、家庭、父母、孩子、援助、不干涉、断联、parenting、family、support | capabilities/family-tasks.md |
+| cap.courage-to-be-disliked.freedom-from-approval | 认可欲求诊断与「被讨厌的勇气」 | high | 不点名批评让你整晚反刍，反复猜是不是在说自己；做决定前先想别人怎么看，没人夸就失落；为不被讨厌处处讨好，觉得活得不像自己；卡在怕被讨厌、怕父母失望；想修复关系但卡在等对方先改变 | 被讨厌的勇气、认可欲求、讨好、他人评价、人际关系之卡、自由、approval、people pleaser、disliked | capabilities/freedom-from-approval.md |
+| cap.courage-to-be-disliked.horizontal-relationship | 横向关系与鼓励（替代表扬/批评） | high | 孩子考好了想回应，但不想再说「你真棒」；带团队或带下属纠结该夸还是该罚；想和上司/父母/伴侣更平等，又怕打成一片；被表扬就开心、被忽略就难受，想弄清来源 | 横向关系、纵向关系、表扬、批评、鼓励、谢谢、horizontal、praise、encouragement | capabilities/horizontal-relationship.md |
+| cap.courage-to-be-disliked.being-vs-doing | 存在标准（行为/存在双标准） | medium | 照顾卧床/失智老人，冒出「这样活着还有什么意义」的念头；因伤病/失业/退休无法产出，觉得自己是累赘；对孩子或伴侣总在扣分式评估；晚辈做了小事想回应却脱口「这有什么用」 | 存在标准、行为标准、价值、照护、老人、接纳、being、doing、worth | capabilities/being-vs-doing.md |
+| cap.courage-to-be-disliked.self-acceptance | 自我接纳与自我意识 | high | 拿到 60 分式评价，越安慰越焦虑；开会想发言又不敢发言；一句批评就全盘否定自己，或靠打鸡血硬撑；分不清什么该接受什么该改变 | 自我接纳、自我肯定、60分、自我意识、达观、self-acceptance、self-affirmation | capabilities/self-acceptance.md |
+| cap.courage-to-be-disliked.credit-vs-trust | 他者信赖（信用/信赖） | medium | 伴侣回消息慢，忍不住想查手机；被背叛过，纠结还要不要再相信人；关系刻意维持浅层，不投入就不会受伤；把信赖当道德义务扛着；想知道无条件信赖的退出边界 | 信赖、信用、怀疑、背叛、信任、trust、distrust、betrayal | capabilities/credit-vs-trust.md |
+| cap.courage-to-be-disliked.contribution-and-happiness | 他者贡献与「幸福即贡献感」 | high | 无酬劳动长期没人看见，觉得自己没有价值；职业倦怠：工作只剩工资单；付出很多没人道谢，怨气累积；拿到认可却仍然空，怀疑在过别人的人生；想做有用的事，又怕那是牺牲自己 | 他者贡献、贡献感、幸福、价值感、工作意义、contribution、happiness、worth | capabilities/contribution-and-happiness.md |
+| cap.courage-to-be-disliked.problem-behavior-analysis | 问题行为功能分析与「特别存在」 | medium | 孩子（或学生）问题行为越管越严重；想知道「他为什么要这么做」；想给关注又怕变成奖励问题行为；自己反复出现某种行为，想看它在关系里换到了什么 | 问题行为、功能分析、关注、特别存在、报复、训斥、problem behavior、attention、revenge | capabilities/problem-behavior-analysis.md |
+| cap.courage-to-be-disliked.life-harmony | 人生和谐、工作狂与甘于平凡 | medium | 长期以工作为轴心，家庭育儿兴趣都被挤掉；被一个人否定就断定所有人都不喜欢自己；怕停下来：退休/离职/生病就没价值；「必须特别」的焦虑 | 人生和谐、工作狂、甘于平凡、普通、特别、workaholic、ordinary、balance | capabilities/life-harmony.md |
+| cap.courage-to-be-disliked.here-and-now | 此时此刻与刹那人生 | high | 拖延：等状态好了、等时机到了就开始；把现在过成准备期或忍耐期；目标焦虑：只有登顶才算数；意义悬浮：大事够不着、小事没意义；注意力被过去与未来占满 | 此时此刻、刹那、拖延、准备期、当下、here and now、procrastination、this moment | capabilities/here-and-now.md |
+| cap.courage-to-be-disliked.life-meaning | 人生意义自赋与引导之星 | medium | 迷茫期（裸辞、毕业、转行、空窗）反复追问为什么活着；遭遇打击后反复追问「为什么是我」；别人的路径成为参照系；想找「正确活法」的标准答案；自由之后反而发慌 | 人生意义、意义自赋、迷茫、引导之星、他者贡献、meaning、purpose、guide star | capabilities/life-meaning.md |
+| cap.courage-to-be-disliked.community-feeling | 共同体感觉与「更大共同体」 | high | 被边缘化、失去位置感，每天煎熬却不敢离开；身份单一绑定：头衔/职位一失去就崩塌；怎么努力都融不进去，又不甘心退出；靠迎合维持位置，既累又没归属感；受挫后想躲起来：止损还是钻进更小的杯子 | 共同体感觉、归属感、位置、更大共同体、边缘化、community feeling、belonging、social interest | capabilities/community-feeling.md |

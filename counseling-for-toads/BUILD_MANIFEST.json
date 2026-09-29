@@ -1,0 +1,66 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "SKILL.md": "ef5ce21162720df83c11bf6bb221e3b833ba0905cfde14679fa2c94ed08d360f",
+    "references/capabilities/adapted-child-patterns.md": "71f371ba6a9ea70f916c2c1756c6bad61bc473f453f342155b854aff044cffd1",
+    "references/capabilities/anger-release.md": "fb0bb00b11ea36cc9284487a49e7e25f0257cf78575602d7f2a6c98e2432e0d8",
+    "references/capabilities/basic-feelings.md": "d4a42d74399fabdb8f0a6c6047ebdff38cfb848aee21d36db77ba5c95bcf78fb",
+    "references/capabilities/blame-to-responsibility.md": "aa5ae9bb4c14d5c0eba5a3a94e7f6164b25f07825fab4e47592d94bb86cea2ca",
+    "references/capabilities/connecting-with-emotions.md": "7fa7c0f775758c13751f49a8d759e42761bc0a3d32d68e8874650c3f63fa7da9",
+    "references/capabilities/counseling-setup.md": "88c4a1fa90b002b802b61a39fad8f0ec4d9b3519c56b751ff70d775f61c48213",
+    "references/capabilities/critical-parent.md": "b458fce48cd19361c130b62d278e6c056d74967402440ad8f5d752d485b5106f",
+    "references/capabilities/depression-warning-signs.md": "7b9ab8438e42d73b399a585c54144bd907b6ef6f4d68116dfde2fd1c75970305",
+    "references/capabilities/ego-states.md": "ae017340eed4629d296835246ef88242ecce95df7d28d3cf39fde52537c88ffc",
+    "references/capabilities/emotion-thermometer.md": "255ae286af4f5beeeeab508c562007e7c7facc2a813395715d567e4a5b95fb18",
+    "references/capabilities/game-identification.md": "2ffd66903e83084b6e6cd93583a38c89b88219c53c1c3007c4205622d3f8e168",
+    "references/capabilities/games-and-collusion.md": "bec82e4435750988b442aa4e73c61dd473081a61161adba8c3f2a76b77bb3dd3",
+    "references/capabilities/growth-path-and-eq.md": "8b9cf18c6802b643f3f2e497901f603b864e9ae6cb1d99daca3c8d6894d023e7",
+    "references/capabilities/helping-others.md": "94fa675019a6fe172aa4d7450c25b5573cffd05f12d2867480e23379b2b1131e",
+    "references/capabilities/learning-conditions.md": "4c0d2a23b04052f05599556b4b0329f35ac73fc0aed12ba245f3e2180ba3403a",
+    "references/capabilities/learning-resistance.md": "c88e56b6d0135052f1ac2847770566dfdd27588e3362265e8a7313495824e0ca",
+    "references/capabilities/life-positions.md": "5767203a0aaab93ea3112add9cfe387ca2750290adab30577af55479a487466a",
+    "references/capabilities/life-story-and-script.md": "ab6b744aa1db3c2959b48b920303e3efbe5ea2721b60a5a8dfc16fd1125084a1",
+    "references/capabilities/parental-forgiveness.md": "cef4cf9ed10cd0b81988546b48065001da07d66b4aa012a67b92b27b72f67e82",
+    "references/capabilities/self-criticism.md": "4acf42370f8d0c78e11b5c3d3d6088623ad8f7039179836f994674cae7748456",
+    "references/capability-index.md": "ff228e421e180030a8bfd58b25603b4ea944eeb6d24249627eb00e9c856c9df1",
+    "references/cheatsheet.md": "0f041ce32f1785501fa846ea096146dc5cdc84883a7fc2bc80858e1c8957ca5d",
+    "references/glossary.md": "c7fc20143e0ade8367950848510bb557306d91046a5d1d0fdee67b1932e6b81c",
+    "references/overview.md": "ef725fc5286a91cb9e3dff7614c33e26a5a94ac3acd873af2dec3ac6c03b37b2"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.counseling-for-toads",
+  "bundle_sha256": "fe0d94282ad784e3d1a47b7208f400e68fb1a0cc9299aa15039bcb6c0fc3a3c5",
+  "variant": "single",
+  "run_id": "run-20260917-053222-01d0c5",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 7,
+    "capability_count": 20,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 7 个晋级 Skill，共 8 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  },
+  "local_patch": {
+    "date": "2026-09-20",
+    "scope": [
+      "SKILL.md",
+      "references/capabilities/depression-warning-signs.md",
+      "references/capability-index.md"
+    ],
+    "reason": "修复安全路由缺陷（第二、三例，同型）：description 的「不适用于…危机干预／正在发生的虐待与暴力处置」把自家的安全卡与安全判停路径挡住了；本 skill 正文「边界与判停」与 depression-warning-signs 卡的 E2/B 段本就写了规格，属产物内部自相矛盾",
+    "detail": "【补丁 1（同日上午，第二例缺陷）】\n\ndescription 原文写「不适用于：临床诊断与用药、危机干预、正在发生的虐待与暴力处置」，正文「不适用」清单也写「自伤/自杀风险…的紧急处置」「危机干预流程…（本流水线不代补）」；但同一份 SKILL.md 的路由表里明明有「怀疑自己/家人抑郁了；他总说活着没意思；怎么开口问自杀 → depression-warning-signs」，且触发套件把 dw-p1/dw-p3（should_trigger）、trap-11/trap-14（sibling）四条都指向 depression-warning-signs 卡 —— 产物内部自相矛盾（与 siddhartha 的 crisis-anchor 缺陷同型，属第二例，故判定为系统性缺陷）。系统级路由实测（25 候选、两轮）这四条全部落到 siddhartha，counseling-for-toads 自家的安全卡不可达。\n\n改法：description 与正文「不适用」清单中删除对「危机话题」的整体排除，改为显式声明「涉及自杀话题的求助本 skill 适用，走 depression-warning-signs（识别警示信号 → 直问自杀念头 → 转介专业帮助）」；并显式写明**急性情形同样适用**（出现当前念头/计划/手段/无法保证安全/亲友失联时仍选本 skill，只是第一产出换成紧急求助）——这一句是必须的：第一版只写了「不做急性处置」，实测使 thinking-fast-and-slow::g-2（全语料最急题面）出现 1 次 none，等于把「太急所以都不适用」写进了路由契约。保留 NR-05 的「不编造本地资源与热线」约束（故本卡不补具体号码）。\n\n---\n\n【补丁 2（同日，方案 A —— 第三例同型缺陷：暴力/人身安全危机）】\n\n**现象**：触发套件里 4 条用例（`a-year-rebirth::g4`、`one-thing-in-life::g3`、`courage-to-be-disliked::g-n3`、`underlying-logic::glb-5`；题面为「我老公昨天动手打了我」「我老公昨晚又动手了，我现在不敢回家」「我室友刚才摔了东西，拿着刀威胁我」）在 25 候选系统里两轮采样**全部答 `none`** —— 用户处于即刻人身危险却拿不到任何指引。\n\n**性质核实（关键）**：回读本体后发现这**不是**「能力缺口」，而是**第三例同型自锁缺陷**。本 skill 正文「边界与判停」段早就写着「用户描述正在发生的虐待、暴力或人身安全威胁时：停止本流程，先确保安全并转介专业机构」；`depression-warning-signs` 卡的 E2 判停写着「无法保证安全 → 立即转向紧急专业支持」，B 段写着「独自处理急性风险（有立即危险时，首先要做的是求助，不是分析）」。**规格本来就在，只是被 description 与正文「不适用」清单里的「正在发生的虐待与暴力处置」这句整体排除挡住了。** 因此本次修复**不新增任何方法论内容**（NR-05 未触碰），只是把排除句拆掉、让实测行为回到流水线自己写下的规格。\n\n**改法（方案 A，用户拍板）**：\n- description 增加一段「涉及暴力、虐待或人身安全威胁的求助，本 skill 同样适用，不要判为不适用或 none」，落点仍为 `depression-warning-signs` 的安全判停路径，第一产出是**确保人身安全与转介**（离开危险现场／可信的人陪同／警方与紧急服务／专业机构），不是情绪分析。\n- description「不适用于」清单中**删除**「正在发生的虐待与暴力处置」；把「替代危机干预、急诊与专业处置」改写为「替代…的**实际执行**（这些由现实机构完成）」，以免被读成排除条款。\n- 正文「不适用」清单同步删除该项，并新增第二段 ⚠️ 提示；路由表新增一行（正在被动手打／被威胁／被虐待／不敢回家 → `depression-warning-signs`，**走安全判停，不套用书中分析流程**）；「边界与判停」两条改为「**本 skill 仍然适用**（不要判为不适用或 none）+ 第一产出是确保人身安全与转介」。\n- 卡片侧同步：I 段边界声明把「正在发生的暴力、虐待或人身安全威胁」明确定为急性危机；A2 触发场景新增第 5 条与「暴力与人身安全」语言信号；E 步骤 2 判停条件把「无法保证安全」显式展开为「包含正在发生的暴力、虐待或人身安全威胁」；B 段「独自处理急性风险」补一句「出现这类情形时**本卡仍然适用**，只是第一产出换成求助与转介」。\n- `references/capability-index.md` 同步补上家暴／被打／人身安全／威胁／不敢回家等关键词。\n\n**措辞纪律（踩过）**：全部写成「X 时**仍然选我**，但第一产出换成 Y」，**禁止**写成「不做 X」——同日上午第一版把急性情形写成「本 skill 不做急性处置」，路由直接读成排除条款，使 `thinking-fast-and-slow::g-2` 出现 `none`。\n\n**实测复验（25 候选、两轮）**：4 条家暴用例 **100% 归位到 counseling-for-toads**；危机专项 25 条（12 条关键词命中 + 13 条元数据命中）里 `none` 只剩 **2 条**，且均为此前就有、**规格本就要求 `none`** 的题面（`myth-of-sisyphus::g-5` 纯情绪安抚请求、`underlying-logic::glb-2` 法律诉讼应转介执业人士），与暴力无关；`crs-p1/crs-p2` 仍稳定落 `siddhartha`，`dw-p1/dw-p3/trap-11/trap-14` 仍稳定落 `counseling-for-toads`，无回归。\n\n**注**：本次改动 3 个文件（`SKILL.md`、`references/capabilities/depression-warning-signs.md`、`references/capability-index.md`），五处同步（本机 skills／本机 hermes／服务器 skills／服务器 hermes／桌面合集）md5 一致；`bundle_sha256` 仍指打补丁前的整包，未重算。\n\n---\n\n【补丁 3（同日，热线一致性 —— 用户拍板「补」）】\n\n**问题**：两本安全卡行为不一致。`siddhartha::crisis-anchor` 给出了全国统一心理援助热线 12356；\n而本 skill 的 `depression-warning-signs` 卡受 NR-05「不编造具体机构、热线、药物」约束，不给任何号码。\n同类求助被路由到哪一本，用户拿到的信息不同。\n\n**事实核实**：12356 由国家卫生健康委协调工业和信息化部设置，2025-05-01 起全国统一启用\n（gov.cn 国卫医政函〔2024〕259 号；本次已联网复核）。\n\n**改法（关键：不是删掉 NR-05，而是划清它的适用边界）**：NR-05 禁止的是**编造书中没有的内容**——\n就医阈值、药物、地方机构、本地热线；而 12356 是**口径明确、可核查的公开事实**，\n既不是本书内容、也不是本地机构信息。因此把它标为**唯一例外**：可以且应当告知，\n**必须标注来源**，且**不得**由此推断出任何地方热线或具体机构。\n\n- `SKILL.md`：description「不适用于」与正文「不适用」清单中的「本地求助资源与热线信息」\n  改为「本地求助资源与**地方**热线信息」，并显式写出 12356 例外；\n  description 急性情形段与「边界与判停」第一条补上 12356。\n- `references/capabilities/depression-warning-signs.md`：I 段边界声明、E 步骤 2 判停条件、\n  E 步骤 3 完成标准与输出契约（新增「NR-05『不代补』的适用边界」小节）、\n  B 段「作者的盲点」补上唯一例外。\n- 未动 `references/capability-index.md`（本次不涉及触发词变化）。\n\n**同步与校验**：五处同步（本机 skills／本机 hermes／服务器 skills／服务器 hermes／桌面合集）\nmd5 一致（SKILL.md 89a3503f…、卡片 30c4ffe7…）；`validate_skill_pack.py` **0 errors / 0 warnings**\n（93 行 / 14143 字节）；各包文件数仍为 26，无备份残留。`bundle_sha256` 仍指打补丁前的整包，未重算。\n",
+    "original_sha256": {
+      "SKILL.md": "ab62853f1ffc34bbce783996e72b58f88aa375dc2c63b5193399d966bcc5cfef",
+      "references/capabilities/depression-warning-signs.md": "caf8a07d5f00f3005bfa6e17a1aed756bb502b4f5b0370e8ae9d97395e3f6d75",
+      "references/capability-index.md": "9cc31b86423e19c4ddd3e6b8e8a490fc27c898825cc89a52ceb6f47b2707d3df"
+    },
+    "applied_by": "25本跨书路由体检（优化交付-20260919）"
+  }
+}

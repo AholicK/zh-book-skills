@@ -1,0 +1,46 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "SKILL.md": "232055017a245c4b243af6bc5324fd1eeb9003514cbf4380b06924c5764c9761",
+    "references/capabilities/brain-efficiency.md": "f5a38c934105776f9e9eeaf349d2e45ce484aef43cac7b92aed2ce4b63167f13",
+    "references/capabilities/diamond-map.md": "421181ecb8fa90ef556a8b3b639ed1de4b19502af96ec382db12e5e600de2f91",
+    "references/capabilities/emotion-management.md": "14e5482471fcba5d310ac4bf8dfdbbef2181b0b7450ef037908838277a9aac20",
+    "references/capabilities/four-dimension-schedule.md": "1713c9680ad8b2e72d0714891049992344bf100de24f8da42d00bc0a3decdf0e",
+    "references/capabilities/golden-star.md": "801af3e84afa0630f32e070b2a5333d3de5bbfd0144f0d47b1ee0f2d4d7e3f2c",
+    "references/capabilities/happiness-apple-tree.md": "b4bd7884910413cb729c506c3a3cd1fd5775c421d4e97c010c1c89e05fe105a6",
+    "references/capabilities/life-keywords.md": "fd045f0e760e849df5b40bdee106813db12cf89d823c14909c7f7f4d81f7a92a",
+    "references/capabilities/paperless-organization.md": "09c5c434f22c8e8450064d4e1b0bd65a4854da42ae5dabd9dd9e090d327565a7",
+    "references/capabilities/personal-branding.md": "b6e54a750e17830d0b5b00ed79f392fc1cb0e8717cfb6828e725dfda05c749ce",
+    "references/capabilities/rapid-skill-learning.md": "745a09e7dca8d94de3d050ba1c1bbbe55e5221a926204977c4987aefbe8d61d0",
+    "references/capabilities/rebirth-year-plan.md": "022ec7b08179a75712d420e973539b9e95a4a0ee6c15a7cfb1498f31e8537f69",
+    "references/capabilities/self-awareness.md": "00db4ca2f28aeeda941b8035a338c6e607133dc587cb7f649bada0dd903a3ac2",
+    "references/capabilities/skill-exchange-pricing.md": "efb4c35240fd33856282a6e530a6f90dbcfd552a6cc7276c7f5b9450452b59fa",
+    "references/capabilities/thematic-learning.md": "9168824559aeb50ff727fba4606be91c2485217f43629eac733d4d5ff847a89c",
+    "references/capabilities/treasure-map.md": "ca0eb6fd9af78cae0c0a821351139f77b28fff9dfd8bba2f89cf6cb3cd802e65",
+    "references/capabilities/value-creation.md": "9ed03e4592460e7535342232135a295fa4a0d7a1360845f5216407bbbcb3eaa3",
+    "references/capability-index.md": "ba9d9cfd2f676c6cffb9854cda0a17850d192701a6f65bdabb211459718e500d",
+    "references/cheatsheet.md": "196de49de2acc4a46b4179d8ff4aa5ea8435435949727c2642251b5ddf053989",
+    "references/glossary.md": "a22427b69d849bf09289499a3642211cdfbf357894df94b5ea110f43236fa788",
+    "references/overview.md": "cebd99267c20be25519df741e42ee29a1e0eb0e24c296b4b2f88ce77499e8c9c"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.a-year-rebirth",
+  "bundle_sha256": "b6456bd2de9dc2fcb1ac7daaf46f3c9bdd39acb3f55aa336f830311dca80d3e0",
+  "variant": "single",
+  "run_id": "run-20260917-141135-47878a",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 7,
+    "capability_count": 16,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 7 个晋级 Skill，共 8 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

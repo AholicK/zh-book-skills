@@ -1,0 +1,26 @@
+# 能力索引（完整版）
+
+| capability_id | 标题 | 重要度 | 意图 | 关键词 | 能力卡 |
+|---|---|---|---|---|---|
+| cap.how-to-read-a-book.active-reading | 阅读的活力与艺术：主动阅读与两类阅读目的 | high | 拿起一本书前，判断该用哪种目的与投入程度来读；读完感觉「知道了很多」却说不清收获，想弄清哪一步出了错；解释同一本书为什么不同的人收获不同，并给出提升方向 | 主动阅读、阅读目的、资讯与理解、active reading、reading purpose、comprehension | capabilities/active-reading.md |
+| cap.how-to-read-a-book.reading-levels | 阅读的层次：四层次累积模型 | high | 安排一本书或一批书的阅读层次与顺序；想直接跳到「高级读法」，需要被递进纪律拦一下；说明四个层次的关系与各自要回答的典型问题 | 阅读层次、四层次、累积递进、reading levels、analytical reading、inspectional reading | capabilities/reading-levels.md |
+| cap.how-to-read-a-book.elementary-reading | 基础阅读：层次一与其成长阶段 | low | 诊断「读不动」的障碍在字词层还是理解层；评估孩子/学习者的阅读准备，需要专业评估时做交接；识破把矫正课程、速读课当高阶阅读训练的错误 | 基础阅读、字词层障碍、阅读准备、elementary reading、reading readiness、functional literacy | capabilities/elementary-reading.md |
+| cap.how-to-read-a-book.inspectional-reading | 检视阅读：略读六步与粗浅通读 | critical | 判断一本厚书或长报告值不值得细读；在有限时间内快速摸清一本书的架构与主题；为读一本难书安排第一遍不停顿的通读；为分析阅读与主题研究筛书备料 | 检视阅读、略读六步、粗浅的阅读、阅读速度、inspectional reading、skimming、deep read | capabilities/inspectional-reading.md |
+| cap.how-to-read-a-book.four-questions-and-notes | 做一个自我要求的读者：四个基本问题与笔记 | critical | 读完书能回答四个基本问题并留下笔记；为读书分享或书评准备可复述的四问答案；按阅读层次选择笔记类型（结构/概念/辩证笔记）；把阅读规则练成习惯，而不是只背规则 | 四个基本问题、做笔记、结构笔记、概念笔记、four questions、note-making、annotate | capabilities/four-questions-and-notes.md |
+| cap.how-to-read-a-book.book-classification | 一本书的分类（规则一） | high | 开读前确定一本书的类别与对应读法；被问「这是哪一类的书」答不出，想补上分类能力；处理类别混杂（跨类/书名难辨）的书，避免读法失配 | 书籍分类、规则一、理论vs实用、book classification、expository、practical books | capabilities/book-classification.md |
+| cap.how-to-read-a-book.x-ray-the-book | 透视一本书：规则二三四与大纲 | critical | 读完后提炼一句话主旨与全书大纲；为读书笔记、书评或汇报整理书籍结构；检验自己是否真的读懂了一本书的骨架 | 透视一本书、一句话主旨、分层大纲、x-ray the book | capabilities/x-ray-the-book.md |
+| cap.how-to-read-a-book.shared-meaning | 与作者找出共通的词义（规则五） | high | 弄清作者在书中对某个关键字的用法；整理一本书的关键字-词义对照表；讨论中发现双方对同一术语理解不同 | 共通的词义、关键字、字义、coming to terms | capabilities/shared-meaning.md |
+| cap.how-to-read-a-book.propositions-and-arguments | 判断作者的主旨：规则六七八 | critical | 用自己的话复述作者主张、检验真懂假懂；梳理作者论述：结论、理由与前提；盘点作者解决了哪些问题、留了哪些 | 主旨、论述、关键句、propositions and arguments | capabilities/propositions-and-arguments.md |
+| cap.how-to-read-a-book.rules-overview | 分析阅读三阶段规则总表（15 条规则集） | medium | 按完整清单自检分析阅读的完成度；教学或共读时展示三阶段规则全貌；为读书笔记与汇报提供复核骨架 | 分析阅读规则、三阶段、15 条规则、rules checklist | capabilities/rules-overview.md |
+| cap.how-to-read-a-book.fair-criticism | 公正地评断与赞同/反对：规则九至十五 | critical | 对一本书、一份报告或一个观点给出站得住脚的同意、不同意或暂缓评论；检查一条批评（自己的或他人的）有没有先理解、有没有举证；把「会吐槽」升级为「会评断」：按四批评点找问题并逐点给出证据；判断「前提结论都对但我就是不同意」式分歧到底是什么 | 公正评断、四批评点、举证义务、义务同意、fair-criticism、agree-or-disagree、book-review | capabilities/fair-criticism.md |
+| cap.how-to-read-a-book.auxiliary-reading | 辅助阅读：相关经验、导读与工具书 | medium | 读不懂一本难书时，判断该不该去看导读、摘要或解读文章；准备读一本巨著前，规划先读哪些相关著作、按什么顺序读；使用字典 / 百科 / 工具书之前，判断该不该查、怎么查 | 辅助阅读、导读与摘要、工具书、extrinsic-reading、when-to-seek-help、companion-books | capabilities/auxiliary-reading.md |
+| cap.how-to-read-a-book.practical-books | 如何阅读实用型的书 | high | 读实用书（经管 / 理财 / 方法类）时，把规则与原理读成自己可执行的行动；评断一本实用书是否值得接受：对齐目标、检验方法、识别雄辩；「读完还是做不到 / 没起作用」时，诊断是不是没有把它实用地阅读 | 实用书、行动义务、雄辩觉察、practical-books、put-into-practice | capabilities/practical-books.md |
+| cap.how-to-read-a-book.imaginative-literature | 想象文学、故事、戏剧与诗 | high | 拿起小说、诗或剧本，不确定该用什么读法；读文学作品乐在其中却说不清为什么，想学会评论；想弄清文学该怎样评断（不真实？不赞同？还是不喜欢？）；读剧本或现代诗读不进去，想找到进入的方法 | 想象文学、小说、诗、戏剧、imaginative literature、fiction、poetry、drama | capabilities/imaginative-literature.md |
+| cap.how-to-read-a-book.reading-history | 如何阅读历史书 | high | 要读一本历史书，想知道用什么态度与规则读；读历史只记年代事件，不知道怎么用、与我何干；想判断一本传记或自传能信多少；读新闻或当代事件报道，想弄清可信度与作者滤镜 | 历史书、传记、自传、新闻、history、biography、autobiography、caveat lector | capabilities/reading-history.md |
+| cap.how-to-read-a-book.reading-science | 如何阅读科学与数学 | medium | 想读科学经典（牛顿、达尔文、拉瓦锡）但不知如何下手；对数学有恐惧，想知道怎样开始读含数学的科学书；想知道读科普/科学书怎样才算读明白 | 科学经典、数学是一种语言、以问题为纲、科普阅读、science classics、reading science、math | capabilities/reading-science.md |
+| cap.how-to-read-a-book.reading-philosophy | 如何阅读哲学书（含神学与经书） | medium | 想读哲学经典但读不动、读不出重点；想自己抓住一位哲学家的中心思想；无信仰者想把神学书或「经书」读好 | 哲学阅读、发现问题、中心思想原则、哲学风格、philosophy reading、central principle、theology | capabilities/reading-philosophy.md |
+| cap.how-to-read-a-book.reading-social-science | 如何阅读社会科学 | low | 想就一个社会议题读书，不知该读哪本、读几本；分不清一本社科书混杂了哪些要素、该用哪套读法；对议题有强立场，读不进去对立观点的书 | 社会科学、混杂要素、多书同读、主题阅读、social science、multiple books | capabilities/reading-social-science.md |
+| cap.how-to-read-a-book.syntopical-reading | 主题阅读：第四层次五步骤 | critical | 围绕一个主题同时读多本书并组织成一份讨论；弄清多本书对同一问题的分歧与各自的立场；写一份呈现讨论本身（不选边站）的主题研究报告 | 主题阅读、中立词汇、议题界定、引原文并列、syntopical reading、comparative reading、multiple books、literature review | capabilities/syntopical-reading.md |
+| cap.how-to-read-a-book.choosing-books | 阅读与心智的成长：选书与重读 | medium | 判断一本书值不值得精读、该投多少精力；找出值得反复重读的书并安排重读；摆脱只读轻松读物、让阅读能力与心智持续成长 | 选书、重读、书的金字塔、心智成长、choosing books、re-reading、book pyramid、reading growth | capabilities/choosing-books.md |
+| cap.how-to-read-a-book.reading-lists | 附录一：建议阅读书目的使用 | low | 拿到一份经典书单不知道从哪本开始；规划经典阅读的顺序与节奏；建立属于自己的终身书单 | 书单、经典入门、阅读顺序、自拟书单、reading list、where to start、classics reading order、book list | capabilities/reading-lists.md |
+| cap.how-to-read-a-book.reading-self-test | 附录二：四层次练习与测验（自测系统） | medium | 学完阅读方法后找练习材料检验自己；为读书会/共读组织题库与答案；检验自己是否达到某一阅读层次 | 阅读练习、自测、四层次测验、答案栏核对、reading test、practice questions、self-test、reading assessment | capabilities/reading-self-test.md |

@@ -1,0 +1,49 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "SKILL.md": "4b6fcca1dfcc1d9a9986f4ef127d4b8be098f715ce0aa1aec5d28db58a182dd0",
+    "references/capabilities/active-leisure.md": "65b6b8673e8160da2a1b81d811f42762c141555d4e69bdb6b2e0bb0937246b73",
+    "references/capabilities/afternoon-restart.md": "6ea55098c6f8a5f8a2e802c369f8cfec818d3acfab15ac5bb401f3258cc49e0e",
+    "references/capabilities/clearing-distractions.md": "11592dc78c2cf92beeb187d116240d17fda23ce82719800ee8a2604def6fd448",
+    "references/capabilities/do-it-now.md": "93abe320ee97828f217292fb799880cfb59001875847cd7c6cafd5bdd5f22b71",
+    "references/capabilities/exercise-restart.md": "005a39a9a5dfbe491e6b453cc107223aa459cbef7d40e872489ab9f25e25b18a",
+    "references/capabilities/first-30-minutes.md": "e4abf54ec25dfff2bcc858ec20442b19f4297e232202553084331737973f6970",
+    "references/capabilities/focus-rhythm.md": "7c79a7a5500e8fd49d79530639bd52a54c643264d551e929a640dda0cdb96fb2",
+    "references/capabilities/for-you.md": "96df4c85650b7ea4e6e2424a8a66af1faf5a0fc58a293e282afd03c3f6418db3",
+    "references/capabilities/leave-on-time.md": "96759e795c3e7fbc1c3323b9cc05c60c08883b715ea1c2e7eeaa360598d07d6c",
+    "references/capabilities/lunch-nap-restart.md": "8e22ee38e1d03c3c5854dab74b8cbff2256f2a6165416e847a5a022f05697c3f",
+    "references/capabilities/morning-golden-time.md": "0458c9ef639f33fcab151c592e9b90fef8bd820d6f6ac07496210e82e90e9a84",
+    "references/capabilities/parallel-work.md": "d92dd94071185c1dff2df444775fe2ef14784dcb35df5ccd9d116b6f76ff3435",
+    "references/capabilities/pre-sleep-rules.md": "405874409ce78adee2bc8be3e735bcceb8f71d613b6533457b3b0b4a0ea595dd",
+    "references/capabilities/same-day-recovery.md": "39bf946704a6dcd56963e73aa75babec0a7a6cf549d51b15b70e536ae80b230e",
+    "references/capabilities/self-investment.md": "1a9a8babdd4087637d4b29adba6a22b8c5cd919b198dc28dd2e53a2d343a1d65",
+    "references/capabilities/sleep-restart.md": "c452340ee5ed5edbd8aa1eb374198cec291f0dcc0ff9735b3740ffd8b154a3b5",
+    "references/capabilities/time-allocation.md": "73c8494905bdfcab36c0bc39b1e147b3091272e0fe5f46685acfa708cfa210e9",
+    "references/capabilities/time-limit-work.md": "a24a883eb2f0aaac3ad9571484550c0288400002f9d4fdb41a0a0ddb469a5880",
+    "references/capabilities/weekend-recovery.md": "f6b4a6bc6133730c9b9eac56be8f0d345743a4f9c49168f7c22337c27cf2c3d8",
+    "references/capability-index.md": "7b910bd2c7d22ceed6b90dd012de72dab3f509f9ddefb0eaf81c10baa5240aec",
+    "references/cheatsheet.md": "72f611cec57a6061d77ac85905318c6f143fd97cc864569235ccda3cbaf3cbc9",
+    "references/glossary.md": "71811e90ffc3fbc98c1818c3215310084f7f855936bead3c881dd91b61cf0cf8",
+    "references/overview.md": "fb17379e154791628bf80843d3d4c01e357904bc327683be16d8e06f59776dd8"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.elite-time-control",
+  "bundle_sha256": "22b57bb163f4958103b23dffc938265498dccc930693d5ba16f3bd8b8db5dff0",
+  "variant": "single",
+  "run_id": "run-20260917-062729-c577c9",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 7,
+    "capability_count": 19,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 7 个晋级 Skill，共 8 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

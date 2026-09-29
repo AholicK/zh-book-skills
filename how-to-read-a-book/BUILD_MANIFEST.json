@@ -1,0 +1,52 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "SKILL.md": "210a7a710eb75602b777cd0dec23512f5a82a4a8614112c815e36f39e94cec65",
+    "references/capabilities/active-reading.md": "40ba5634a82687fc372096c2e87217b08f63f0f460b59b3e28ae482a808d42ac",
+    "references/capabilities/auxiliary-reading.md": "b9aa44b6ad09894f837999169d6f24186d2404cf221a11886f8ec306b29cac25",
+    "references/capabilities/book-classification.md": "fda707c4747bce14aa986fc882f5e8ca26d3731d80f803e475a172a9fb674f71",
+    "references/capabilities/choosing-books.md": "4d4035231ec4e5b9bbedcc13af3643029624740fa8cadffb60b4e648c3d1baa5",
+    "references/capabilities/elementary-reading.md": "0fb3a900c8e052ab646cb468a13bee257643b5f79f3d7da147b4b5f26736d0e9",
+    "references/capabilities/fair-criticism.md": "96f8f42a0d7823957c7ca0641e2e674bfa75f08e6b4a118b5648ca3158db6505",
+    "references/capabilities/four-questions-and-notes.md": "49a649cf45e9eb03a0db4b691658d800fc30735240587ca22563fb96ee611f37",
+    "references/capabilities/imaginative-literature.md": "b6664dab7ccb1d47c023fa23657ca302e1da3793f444840e04afb93f9595bfad",
+    "references/capabilities/inspectional-reading.md": "6200f50cc8702f67a093c6c5238c1ec403e9a9ae3307bb84a0881b18ee2f5e77",
+    "references/capabilities/practical-books.md": "af62b61b8a2668831ceae630e2f70eaf8782638b806da41a3a1313e9bd450907",
+    "references/capabilities/propositions-and-arguments.md": "f3036fe89d8d55e3de9bbcc498601a2c08871f321d2c7f87d27a11f5361b81cb",
+    "references/capabilities/reading-history.md": "47a57ba559c316f19010576717506c0eb6d7168f48a17660f1fd813cd292a7b0",
+    "references/capabilities/reading-levels.md": "078c36497f40d135da399707067ea92efbbb9d4e8c70acf8312261b1800afc63",
+    "references/capabilities/reading-lists.md": "52b5929742fbbd95b59610f5b738f488aff5418b338b98e21aee9121e4c82d49",
+    "references/capabilities/reading-philosophy.md": "934afa8b4fa786e6b547d238b6e6c253e6f1f4f6f63d26070642da8ff9dd031f",
+    "references/capabilities/reading-science.md": "cf9614c5eb4dc6973ab6a7d80637061a8742ac860fac6322265e63f204744804",
+    "references/capabilities/reading-self-test.md": "533692a8a0be08d8ffd30ddc8cd8458b622e8ccb751f476bfdf98c86144155ba",
+    "references/capabilities/reading-social-science.md": "0950100ef5665f3376a93f71904f56dd9c9274a123ab0fb86d22abde5c596efb",
+    "references/capabilities/rules-overview.md": "bd113cde27bb8753258046198e3b93587f06d5d6399c6cb6ac8d2e23b054dd11",
+    "references/capabilities/shared-meaning.md": "08ceb765937ec83b320c561b5aba64c085e1575428fc43290230aeecc0cf67a2",
+    "references/capabilities/syntopical-reading.md": "c4541e0581022afd087a4ec368e4f9abcfcbc55d336b72b79e55a47af24c0cdb",
+    "references/capabilities/x-ray-the-book.md": "f5f4e00927b50053353527fc5a48f24c1565af9053f3a02db934685e0c049c3c",
+    "references/capability-index.md": "d668928ca4a3bf9f04e269b4b72e422aca8de8698719911d0129e3c194445b96",
+    "references/cheatsheet.md": "387045887cff0d073786728b092cdf59906298fac4a8246b416f9992e691bf59",
+    "references/glossary.md": "fecd5369f9523a95b371c2d646228571811f5acfbb5afd2fc57423385db3d96e",
+    "references/overview.md": "f9a3ccd73693969f9040f171de45a00cecaf4a9e0b8bf5c3dfb32da00ea21dc4"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.how-to-read-a-book",
+  "bundle_sha256": "9fd3fd62c30d376da2a80641432aa76d1bd41db45c081cd485015cd8a8652a96",
+  "variant": "single",
+  "run_id": "run-20260918-022824-e5c13e",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 7,
+    "capability_count": 22,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 7 个晋级 Skill，共 8 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

@@ -1,0 +1,23 @@
+# 能力索引（完整版）
+
+| capability_id | 标题 | 重要度 | 意图 | 关键词 | 能力卡 |
+|---|---|---|---|---|---|
+| cap.deliberate-practice.purposeful-practice | 有目的的练习：四特点诊断与改造 | critical | 练了很久没进步，怀疑自己不是这块料；每天都在练，但成绩就是不动；想把「练习」安排得更有目的性；除了老师留的任务，不知道该怎么练 | 有目的的练习、天真的练习、刻意练习、目标、专注、反馈、舒适区、诊断、purposeful practice、deliberate practice、plateau | capabilities/purposeful-practice.md |
+| cap.deliberate-practice.challenge-calibration | 挑战校准：走出舒适区、体内平衡与甜蜜点 | critical | 训练内容太简单，练了跟没练一样；一上强度就受挫或受伤，不知道加多少合适；想知道「刚好超出能力」具体怎么操作；长期同一个强度，水平停住了 | 走出舒适区、甜蜜点、体内平衡、适应、难度、加一减二、过猛、comfort zone、sweet spot、homeostasis | capabilities/challenge-calibration.md |
+| cap.deliberate-practice.plateau-breakthrough | 瓶颈突破与停滞跨越 | critical | 练了几个月卡在同一个水平；一直加量加难度，还是突破不了；开始怀疑自己到了「天赋上限」；某个具体动作或环节总是掉链子；中断或受伤后（已痊愈）水平倒退，想恢复到原来的水平 | 瓶颈、停滞、突破、卡住、换方式、停滞点、专项练习、弱点、plateau、breakthrough、stagnate | capabilities/plateau-breakthrough.md |
+| cap.deliberate-practice.self-training | 无导师自训：三步路线图与三个F | critical | 想自学某个领域，没有老师或教练；不知道该练什么内容、怎么设计练习；想照着高手的样子提高自己的作品；自学很久感觉在乱练 | 自学、无导师、三个F、复写对比、差别、富兰克林、自训、self-taught、no mentor、three Fs | capabilities/self-training.md |
+| cap.deliberate-practice.mental-representations | 心理表征：概念、功能与创建（含复写对比法） | critical | 想知道专家和新手的差别到底在哪；想培养对某个领域的「感觉/直觉」；复述或应对时总抓不住要点，脑子里没有结构；做计划时想不到各种走向和应对；想知道「复写—对比—纠正」这类临摹方法怎么操作（找出并补上与大师的差距） | 心理表征、表征、直觉、模式、检索结构、复写、对比、如果那么、mental representation、intuition、pattern | capabilities/mental-representations.md |
+| cap.deliberate-practice.workplace-training | 工作中训练化：边干边学与会议改造 | high | 工作太忙没时间练，想把工作本身当练习；开会或讲演示总是走过场，没有反馈；团队做完了事，但没人从中变强 | 边干边学、工作训练化、会议改造、反馈、以练习为导向、learning by doing、on-the-job | capabilities/workplace-training.md |
+| cap.deliberate-practice.training-systems | 组织训练系统设计：王牌训练式仿真与即时反馈 | high | 要给团队或公司设计一套训练（而不是培训课）；想建立案例库、仿真演练与复盘机制；培训投入不少，但员工能力没变；想知道怎么让反馈及时到达学习者 | 训练系统、组织培训、仿真、案例库、即时反馈、复盘、王牌训练、战斗报告会、training system、simulation | capabilities/training-systems.md |
+| cap.deliberate-practice.mentor-selection | 导师的使用：选择、评估与更换 | high | 想找人教或找教练，不知道怎么挑；现在的老师好像教不动我了；报了很多课，但没有人为我纠正；分不清好教练和会表演的教练 | 导师、教练、老师、选择、更换、心理表征、mentor、coach、teacher | capabilities/mentor-selection.md |
+| cap.deliberate-practice.motivation-system | 动机系统：弱化停下理由与增强前行理由 | high | 定了计划总坚持不下去，半途而废；每年立 flag 每年失败；知道该练但总是拖延、提不起劲；想给自己或孩子设计一个不靠意志力的安排；练习时走神、动作机械重复，感觉不到推进 | 动机、坚持、中断、半途而废、新年决心、固定时间、团体、motivation、stick with it、dropout | capabilities/motivation-system.md |
+| cap.deliberate-practice.goal-decomposition | 目标分解与进步监测 | high | 长期目标太大，看不到进步想放弃；想给自己定可量化、能记录的训练指标；练了很久不知道自己到底有没有变化；想要一个进步追踪表但不知道怎么设计 | 目标分解、进步监测、记录、指标、差点、复盘、goal setting、tracking、metrics | capabilities/goal-decomposition.md |
+| cap.deliberate-practice.willpower-myth | 破除意志力神话与三种错误思想 | medium | 总觉得自己意志力差、没毅力；遇事第一反应是「我没天赋/我没毅力」；想纠正「再努力一点就行」式说教；想理解为什么同一个人换个场景就能坚持；听到「多干几年自然就会了」式说法，想弄清它错在哪 | 意志力、毅力、神话、错误思想、信念、循环思维、willpower、grit、mindset | capabilities/willpower-myth.md |
+| cap.deliberate-practice.talent-bias | 天赋偏见纠偏：自我实现预言与标签 | high | 孩子说「我天生数学不好」或被说「不是这块料」；自己相信「我天生没有某个才能」；想打破对某类人的「天生优势」传言；想纠正自己语言里的能力归因说法 | 天赋、天生、标签、自我实现预言、自证预言、音盲、数学、talent、self-fulfilling prophecy、label | capabilities/talent-bias.md |
+| cap.deliberate-practice.teaching-redesign | 教学与课程改造 | medium | 要把一门培训课或课程改造成技能训练；讲了学生还是不会，想要更好的教学结构；想设计课堂问题和即时反馈机制；想用「技能优先」原则检查现有课程 | 教学、课程、培训、技能、知识、课堂问题、反馈、改造、teaching、curriculum、skill-based | capabilities/teaching-redesign.md |
+| cap.deliberate-practice.adult-learning | 成年与大龄学习判断 | high | 三四十岁或更大年纪学新技能，还来得及吗；想学乐器/外语/运动，担心年龄太大；孩子错过了「最佳年龄」，怎么办；想知道哪些能力确实有年龄窗口 | 年龄、成年、大龄、来得及、窗口期、折弯幼枝、可塑性、adult learning、age、plasticity | capabilities/adult-learning.md |
+| cap.deliberate-practice.practice-history | 练习史解释框架：训练时间 vs 天赋 | medium | 想用练习与训练质量解释某人的成就差异；身边人说「他就是有天赋」，想在讨论里给出更站得住的表述；自我复盘：和高手差在哪；想了解「训练时间 vs 智商」研究怎么说 | 练习史、训练时间、天赋、智力、解释、差异、practice history、training time、talent | capabilities/practice-history.md |
+| cap.deliberate-practice.ten-thousand-hours | 1万小时法则的错与对 | medium | 想搞清「一万小时定律」到底对不对；别人拿「练够一万小时就行」说事，想有理有据地纠正；想向团队或学生讲清「努力与时间」的正确关系；困惑为什么有人练很久也没成 | 1万小时、一万小时、法则、定律、平均数、练习、纠错、10000 hours、ten thousand hours | capabilities/ten-thousand-hours.md |
+| cap.deliberate-practice.genius-demystified | 天才祛魅：两问框架与传说破解 | medium | 看到「神童/天才」故事想知道怎么理解；想给朋友圈的天才传言一个不神秘的解析；好奇神迹类故事（断弦演奏/闪电心算）背后的方法；想理解「天才=训练产物」的推理方式 | 天才、神童、神话、传说、两问、帕格尼尼、莫扎特、自闭症奇才、genius、prodigy、demystify | capabilities/genius-demystified.md |
+| cap.deliberate-practice.expert-roadmap | 杰出人物路线图与「练习人」心法 | low | 想规划孩子或自己多年期的成长路径；想知道怎样从「有兴趣」走到「杰出」；家长想问自己在各阶段该做什么；想了解「练习人」的长期心态 | 路线图、四阶段、兴趣、开拓、家长、练习人、roadmap、stages、mastery | capabilities/expert-roadmap.md |
+| cap.deliberate-practice.practice-conditions | 刻意练习的界定与条件审查 | high | 想确认「我这样做算不算刻意练习」；有人说「刻意练习就是拼命练」，想确认真伪；想在公司或学校落地「刻意练习」但不知是否适用；想分清「刻意练习/有目的的练习/天真练习」 | 界定、条件、七特点、领域、导师、适用边界、definition、conditions、applicability | capabilities/practice-conditions.md |

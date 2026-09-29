@@ -1,0 +1,49 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "SKILL.md": "1d60c92c51389509876508c4d21904532c55fafeb3beb5007552919bb9da709e",
+    "references/capabilities/accepting-yourself.md": "4265d2593c945683df0a4bb65e9b452d975fa434379f986300ef90863a214454",
+    "references/capabilities/admitting-fault.md": "91e9626cfd52f5c0c55d500c689649232c4825cb6f4189d71e9e8ebcd3fcef2b",
+    "references/capabilities/calling-a-pause.md": "2a1e86e4be6fb6a3b3514130b2af44d761f4f58aa77ac08665ab8f7617776fc8",
+    "references/capabilities/cultivating-willingness.md": "c79eded16e942aad7c0a76142980225d13b8d08a31679b281d94a1d3b235cfec",
+    "references/capabilities/empathy-and-temper.md": "e77ca0010be44eda0bd06fea17d1aa6598abbec046cbb1567667294b2e2f01bc",
+    "references/capabilities/enterprise-cultivation.md": "e26e85de489e21850fb9659f9ae810c2d32943d63b326e0b2bfd9fe9cb5e2e67",
+    "references/capabilities/family-cultivation.md": "30f241853773c404f326bb1e0a4fa969994d25f29248c078eeca880725ef5dc9",
+    "references/capabilities/gratitude-trust-helping.md": "e793855c2d95a3492cf1c242d96b71c84bb8ee517b9d935101dd19ee5a5c7df4",
+    "references/capabilities/leadership-cultivation.md": "004b661f880aa56e2f0afe184596a3d8a0a6ea181ddf43c8cce087de965c798e",
+    "references/capabilities/letting-go.md": "fcbc48f398db6c4e278b22e82967b2528e8ba32f19f2bd0f3702afa6911440d3",
+    "references/capabilities/listening-and-speaking.md": "752dfcaa0fef306776d665a92b7943d7e590f6edcf223b8541f665fe4f9c9567",
+    "references/capabilities/living-well.md": "5d6db26449fc6624a82490d73d29c1f327bf690b78bd37ed49fb69f73eded491",
+    "references/capabilities/managing-thoughts.md": "1481ce341de7b89c60ad254bc877e38d2ad2cef64d58dfdd03bbf69e88761617",
+    "references/capabilities/personal-effectiveness.md": "454b2a7155b00aa32f98de964a66f0d483f6371c6c4e08a4bc7392a05608dcbf",
+    "references/capabilities/relationship-repair.md": "04fb58acc36d974027d326c1ed6b299bbd7ed7a9d43e96e7ce834dd35ecceb78",
+    "references/capabilities/self-breakthrough.md": "8a3f132d47b6a25860d5be30fc81e485fc98bbe30db08132b159571ea31cad1e",
+    "references/capabilities/three-hearts.md": "b2fff644d970d62eb59f8702cea8962b9bd06497f7065c0ee23355059dc82fd0",
+    "references/capabilities/three-things.md": "2928c72527470ebef32b9557ad945e2b4fe25afb5b2ef4e1819eaec64f86766f",
+    "references/capabilities/workplace-cultivation.md": "95f9f76c3450e4f6874111c4b5431b86c7f45e0ec19ab7455b5010b129230de5",
+    "references/capability-index.md": "2e4444c57d18cee28a7f8c6471772f5d345775463afe4bf473b5c0bcd2add2a0",
+    "references/cheatsheet.md": "f36a3fde76eda61b9fa5be1bac1f82e0c6dd77a7b509df445f40b6053722c7a0",
+    "references/glossary.md": "091d5cdbdb90c1bc149615c3548040f98d3a0d94eb089318538c41f1b715e70d",
+    "references/overview.md": "a37372213e0d0e8207909948985131907cac1a257023b5467fdb4932fd9aa72d"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.one-thing-in-life",
+  "bundle_sha256": "742d460a7e787ea06d4c15b6c66a22e5956189903dc8fad4936aac9335220929",
+  "variant": "single",
+  "run_id": "run-20260917-184440-7e6de0",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 7,
+    "capability_count": 19,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 7 个晋级 Skill，共 8 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

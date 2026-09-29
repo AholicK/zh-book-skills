@@ -1,0 +1,45 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "SKILL.md": "6688f03cf428a6aa9974f6a54728e080c05a2fbe8212c4756c5af85c3f360632",
+    "references/capabilities/be-proactive.md": "aa7511a103d2dff6090b74f4871a4bf3aa20793be449251c30138991150d2f6d",
+    "references/capabilities/begin-with-the-end-in-mind.md": "a1198137a6a0e7617904ae820c4865220e634fc8544706514d52d4338cefe242",
+    "references/capabilities/emotional-bank-account.md": "98c34e21f0323ed80127a1b28e9e29189e756095cb5c5fd29fd1b2367c837d56",
+    "references/capabilities/inside-out.md": "af05d2aa30401c7c63cbd5a5f41de883a46052b7fa5eb52886da02d36c71373f",
+    "references/capabilities/leadership-vs-management.md": "db5d32c2f7a5867885507cebf13d252b63d57ab86f573f512a4eb17e42fd6ac3",
+    "references/capabilities/life-center.md": "108bfcc33d7d50c6e0cb50e8f078e5cccf5bee47dfe3414fa1d2db64f28b4559",
+    "references/capabilities/put-first-things-first.md": "cf8e389bd5434637cb4c75ecad5043494eb47c5a07024139fda26b1cf2275555",
+    "references/capabilities/reading-and-index.md": "e61958ea91be9c3f6893689f37ea2accf2d2ae11f2a60ce16959f9f62406fc3c",
+    "references/capabilities/responsible-delegation.md": "9fb078642a777d7a584a03d3aaee877ff0dad7c6ff709194cc09128112c9af19",
+    "references/capabilities/seek-first-to-understand.md": "0e5d44b1131d03225866c643f9a279b16599a44877abb8c42f66f469874f8c41",
+    "references/capabilities/seven-habits-overview.md": "d78ef13ae6fe43b5d3a0b9eb92d9ff5f85f88865a09004694eb6f99fff485c10",
+    "references/capabilities/sharpen-the-saw.md": "62c11121c403bcd842f37349fd2f1e0e8f34ea0a51071a520f9bd43c4b4c74cd",
+    "references/capabilities/synergize.md": "1c7fd62208be29cd2465925be87b0cc3d6df9ef8e8e373309fa52b26253ec46c",
+    "references/capabilities/think-win-win.md": "23984ce330f08125fa251c16f615072fa9fdc1685f79f564d078b8543c47b3ae",
+    "references/capabilities/transition-person.md": "503f60b2ce473496f2b9c6bb4392a15f40d8c2a65944169fd70545ba68cab0b5",
+    "references/capability-index.md": "4b7a199cd2a14b7fde12decf1a01ecc54994e6be41578bf4d05abff0e02167f0",
+    "references/cheatsheet.md": "dd0965a1851a7a6cb090848f0a99b8bcfe0e5c3d85fb4c5f01245c8936035fdc",
+    "references/glossary.md": "c0dacf21bb00a6112918f16ff452b508f7d893e1267d70d0d0eb0b8d551505ef",
+    "references/overview.md": "908835639285697dfdb0041213d19a1461dbbe5dc4de3183237154373e65b6d6"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.seven-habits",
+  "bundle_sha256": "74d59dafcc500263b6fcd020a7a049028f3fb38cf3b4b4df029985c79ab60eb9",
+  "variant": "single",
+  "run_id": "run-20260918-010044-1791f7",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 7,
+    "capability_count": 15,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 7 个晋级 Skill，共 8 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

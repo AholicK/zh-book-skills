@@ -1,0 +1,19 @@
+# 能力索引（完整版）
+
+| capability_id | 标题 | 重要度 | 意图 | 关键词 | 能力卡 |
+|---|---|---|---|---|---|
+| cap.seven-habits.inside-out | 由内而外：品德成功论与思维方式转换 | critical | 同样的困境反复出现，想检查是不是「对问题的看法」错了；关系困局中在等对方先改变，想把改变从自己开始；反复用新技巧「扑火」失效，想分清技巧与品德/范式的轻重 | 由内而外、思维转换、地图不是地域、品德成功论、inside-out、paradigm shift、character ethic、map is not the territory | capabilities/inside-out.md |
+| cap.seven-habits.seven-habits-overview | 七个习惯总纲：成熟模式图与效能（P/PC）定义 | critical | 给一个纠结的取舍做「短期 vs 长期」体检（金蛋还是鹅）；给自己或团队定位七个习惯的修炼次序（依赖/独立/互赖）；「知道却做不到」时定位知识／技巧／意愿的缺口 | 七个习惯总纲、产出与产能平衡、成熟模式图、金蛋与鹅、P/PC balance、seven habits overview、maturity continuum、effectiveness | capabilities/seven-habits-overview.md |
+| cap.seven-habits.be-proactive | 积极主动：选择的自由与影响圈 | critical | 把「他/环境让我……」「我不得不」的叙事改写为「我选择……」；分清这件事落在影响圈还是关注圈，找到第一步行动；为情绪反应或已无法挽回的错误，找一个负责任的回应方式 | 积极主动、影响圈、关注圈、选择的自由、be proactive、circle of influence、stimulus and response、response-ability | capabilities/be-proactive.md |
+| cap.seven-habits.begin-with-the-end-in-mind | 以终为始：两次创造与使命宣言 | critical | 为人生、家庭或事业确定方向、撰写使命宣言；重大取舍前确认「这是不是我要的终点」；弥补「忙碌却空虚」的方向缺失，把口号式的愿景落到具体取舍 | 以终为始、使命宣言、两次创造、心灵演练、begin-with-the-end-in-mind、vision、mission-statement、mental-creation | capabilities/begin-with-the-end-in-mind.md |
+| cap.seven-habits.life-center | 生活中心诊断与以原则为中心 | high | 弄清自己的生活重心、情绪与安全感被什么牵着走；重大抉择前检查自己的决策依据是否被某个中心劫持；在各类生活中心与以原则为中心之间做自检与转换 | 生活中心、以原则为中心、安全感、人生方向、life-center、principles、centered、security | capabilities/life-center.md |
+| cap.seven-habits.leadership-vs-management | 领导与管理的区分 | medium | 判断自己或团队是在做正确的事，还是只把事做对；战略与执行、掌舵与划桨之间摇摆时确定该抓哪一头；组织或家庭的变革讨论只有流程没有方向时定位问题 | 领导、管理、做正确的事、第一次创造、leadership、management、direction、first-creation | capabilities/leadership-vs-management.md |
+| cap.seven-habits.put-first-things-first | 要事第一：四象限诊断与第四代时间管理 | critical | 事情太多做不完，想理清优先级与时间去向（四象限诊断）；想做一份以要事为中心的周计划，并能每日调整；总被紧急事务牵着走，想学会对「不错」的事说「不」；怀疑自己缺自制力，想让计划真正执行下去 | 要事第一、四象限、第二象限、周计划、put first things first、priorities | capabilities/put-first-things-first.md |
+| cap.seven-habits.responsible-delegation | 责任型授权 | high | 想把工作或家务交给他人，却总不放心、反复检查；团队里所有事都堆在自己身上，成员没有成长；交办后对方反复请示细节，或结果不符合预期；想给下属或孩子成长空间，又怕放手后出问题 | 责任型授权、授权五要素、委派、不敢放手、delegation、empowerment | capabilities/responsible-delegation.md |
+| cap.seven-habits.emotional-bank-account | 情感账户：人际关系的信任储蓄 | critical | 与伴侣/孩子/同事的关系变冷或信任透支，想修复却不知从何下手；想为重要关系做日常维护，而不是等出问题才想起修补；亲子沟通只剩提醒与指令，孩子不再交心；想知道哪些行为在消耗信任、哪些在积累 | 情感账户、信任存款、关系修复、七种投资、emotional bank account、trust | capabilities/emotional-bank-account.md |
+| cap.seven-habits.think-win-win | 双赢思维：六种模式与五个要领 | critical | 判断一段合作或谈判是不是真的双赢（含伪双赢自检）；各方立场僵持时诊断该修哪一环条件（关系/协议/体系/过程）；合伙或签约前设计协议五要素与退出机制 | 双赢、六种模式、好聚好散、双赢协议、win-win、think win-win、win/win or no deal、abundance mentality | capabilities/think-win-win.md |
+| cap.seven-habits.seek-first-to-understand | 知彼解己：移情聆听与表达 | critical | 对方不愿沟通或一说就沉默时恢复对话；说服上级、客户或家人前先提高可信度与通过率；给建议前确认自己是否真正理解了对方 | 移情聆听、知彼解己、自传式回应、先诊断后开方、empathic listening、seek first to understand、listen first | capabilities/seek-first-to-understand.md |
+| cap.seven-habits.synergize | 统合综效与第三条道路 | high | 双方方案僵持时创造第三条道路；会议只剩折中或妥协时如何升级；推动改变遇阻力时化阻力为动力 | 统合综效、第三条道路、尊重差异、力场分析、synergize、third alternative、creative cooperation | capabilities/synergize.md |
+| cap.seven-habits.sharpen-the-saw | 不断更新：四个层面的自我更新 | critical | 长期忙碌、锻炼与阅读被挤掉，想知道该从哪一层开始恢复；为身体/精神/智力/社会·情感四个层面安排可执行的更新计划；识别只忙产出、不保养产能的失衡（含四层面偏废） | 不断更新、四层面、每天一小时、sharpen the saw、磨刀、自我更新、产能投资、personal renewal、burnout | capabilities/sharpen-the-saw.md |
+| cap.seven-habits.transition-person | 由内而外深水区：代际传承与转型者 | medium | 发现自己重复父母的某种行为模式，想在自己这里改变；与伴侣/家人做深度交流，但一碰敏感话题就受伤；理解家人对某件小事的异常执着背后是什么 | 转型者、代际传承、深度交流、transition person、原生家庭、代际模式、家族模式、break the cycle、generational pattern | capabilities/transition-person.md |
+| cap.seven-habits.reading-and-index | 阅读方法与全局索引工具 | low | 读完材料记不住，想要能留住的学习方法；遇到具体困境，想知道书里哪一章对症；建立「读→用」的循环，而不是浅尝辄止 | 阅读方法、48小时分享、症状索引、reading and index、以老师角色、挑战与机遇索引、learn by teaching、teaching to learn | capabilities/reading-and-index.md |

@@ -1,0 +1,47 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "SKILL.md": "4c84eda38f08bde4cb4c4203ddc5a1162be978de704face8693e9abebf239622",
+    "references/capabilities/cultural-digestion.md": "fa97b3e777dffd6e4969807fc0fe9a340a151e5004fea54472cc3423a120b782",
+    "references/capabilities/disaster-renewal.md": "c34edabae0ace8dfec333e840d2a5712b16f83925845fb2fa0be00a5589c7250",
+    "references/capabilities/doing-your-best.md": "a606dd8c6e88e109b4831beb70440a9e50a4b1944d0fcc52c92711c4ff5c1b1c",
+    "references/capabilities/dont-waste-yourself.md": "9e3e134f047c26ee5dc75cad2a3d2358c9bc2774f23d701035afd206c3a8111d",
+    "references/capabilities/empathy-check.md": "9ef438639b3e2c35da0eec773f6f364bb5ec0a93f684aca2e32bf147a9275147",
+    "references/capabilities/gratitude-in-hardship.md": "4dcbd1f4fa67e23c4eb6740b2862fe931c870fd7d21ce76839d9b75255b7eafb",
+    "references/capabilities/inner-stability.md": "6cf62c1ff7f9e806ea37f301d979d68573bd516b98462c1bc8f3603daff78319",
+    "references/capabilities/intelligence-vs-wisdom.md": "54a9ea83d91c860bd3561e80a289d62f8de235d767d71469e1d559191810743b",
+    "references/capabilities/inward-internalization.md": "603a5abeba64f851c5f72e462563cc49d5cc723160c62c850a2ee65cb88a4dd1",
+    "references/capabilities/letting-go-of-unreachable.md": "4a52807b781c4f3ea8d4c582301c09e44b9efd6f0e7f5da564a3b730751d7041",
+    "references/capabilities/openness-to-insight.md": "4a4912ef6db24932195f297d8aefe857f69401a551e263bc1887b9bfb2dccae8",
+    "references/capabilities/order-of-helping.md": "2d7bdb403df14ded57535a274dd1bc6add64a7d86978e228a0d5ca7f4509bd1c",
+    "references/capabilities/reading-the-world.md": "ad2dc2eb58856611c5d64bed6d10c59858553e339dea3c1cb7bf682ff167064e",
+    "references/capabilities/rebuilding-connection.md": "3c278ced933e15b422dfccb2f6ce25e6e1df439014d53382d50f83559d2a5cc8",
+    "references/capabilities/self-responsibility.md": "00ad1782c3cba06f2dc981cb9b80ff8cec0c1edac8c8402cafb2eb9f6a86ac2e",
+    "references/capabilities/world-in-flux.md": "09c54cc2c5fc4bfe7a2f23ab8b8e4c18c39da96b237a906c0e9fa72b1b7e52f1",
+    "references/capabilities/world-scale-view.md": "e2db07cb14f5622592b6c323c48fb5a6bf649285826ca8be38c615fbacd7d9f2",
+    "references/capability-index.md": "ae0fd4a9e35a6169ccbbafbad8aa870861bc1960e8e2904c352c033fa08dad15",
+    "references/cheatsheet.md": "9a3df08c20009de39315b37b7bc75542aed815c4c0cf0b9f6908686c8a0e52e1",
+    "references/glossary.md": "0248f32834563c7c23dfde878cd746e90dc8273c99a0606f827d59ca085c2f4d",
+    "references/overview.md": "5794da74fd4a0b843b5324da4138dd8abce03b4f1761dd6d22b50f638955d7cb"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.settle-yourself",
+  "bundle_sha256": "251690c042da508a84b7a079ed04fee51c47dad64199c042f11a78269549fbd5",
+  "variant": "single",
+  "run_id": "run-20260917-044857-40d717",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 7,
+    "capability_count": 17,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 7 个晋级 Skill，共 8 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

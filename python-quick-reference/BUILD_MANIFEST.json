@@ -1,0 +1,50 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "SKILL.md": "97a2337e2db0f57716dffbc21e7b7a4f1a73f4d4739a294d5d95cd842370d0d9",
+    "references/capabilities/class-and-objects.md": "9ecd9ffd31a4d1ee447e56301151c19aee1887c36bf01c165425720b6b8b874b",
+    "references/capabilities/control-flow-and-loops.md": "227b3f3d893f906f03ca525aa7e66b3aec9ae07e9d346ddc3a491bbec7cd5c29",
+    "references/capabilities/database-access.md": "cf8a69008bd5ab338d010c000e361fa7ffe80a3df7a7c9d16798f210eedc9603",
+    "references/capabilities/dict-and-set-operations.md": "b31ec386837b426c88ffc2aeed5f9f920e6652d3b6418819109d6693f7aa21c8",
+    "references/capabilities/exception-handling.md": "388870e4951a4692a5d956b2340277268524b8cc846f635ad7aae4ce347192f1",
+    "references/capabilities/file-and-directory-operations.md": "a92792159dc766df277251855412b58246e8186fad5b190bc112a9bd47de60cd",
+    "references/capabilities/function-definition-and-call.md": "81ca94f211f812d8c7738a5d701b9f8b89bd9f5b0d7f8c791d0301170508e0e8",
+    "references/capabilities/gui-window-construction.md": "12505593c09e08cc945215eacf2c73aece9131fb43d3edd4e3219015e108e6b0",
+    "references/capabilities/input-and-print.md": "37f906b34820517d7dffe20e0b846e627a9f7e40786dc0ded1a0563c25e4fd4e",
+    "references/capabilities/list-and-tuple-operations.md": "34efcc2976273c08fe51f7a8ccf59554a792c45377e2cff705e2b9fb02f632ed",
+    "references/capabilities/list-comprehension.md": "0ee2ef5f89a9a610c2f5ade2fbc82b5a1e4365d44c5036ca61cf135e33d75749",
+    "references/capabilities/module-import-and-pip.md": "e9cc13eb5c7091a179616763f0a022c9836248519eb2d51b85352c7f8f78de90",
+    "references/capabilities/operator-precedence.md": "78edeb0c9a0d9140b3528b56d4bfceaee9aa58c47c2f65a6b22fb6842bd6305e",
+    "references/capabilities/process-and-thread.md": "ece1295ac2462021a84b6221e779ad9705dc4a98398ad4431d305d71da8d9488",
+    "references/capabilities/regex-construction.md": "b7ebd2c1c68bc62e74fdbaf01f493dff820f0685e7c4f02e975711b9b9d38ab2",
+    "references/capabilities/sequence-slicing.md": "5568b2621e7e21cab7febdde1032b8f859a04cd773442481fb1e415cc10ebe74",
+    "references/capabilities/socket-communication.md": "4432f0c940b2a01c7ba98477d466ce3e0aefcd7677b382b74a565cce63b405b5",
+    "references/capabilities/sort-vs-sorted.md": "503763de2132aee2b9d3d8b890e2e10b9f17b95f6d10c20e4910e09cbd8b6f59",
+    "references/capabilities/string-encoding-split-join.md": "ca95831ac0e67a9c8e18fdf4a1751b43c0108e6e13fc9fc4f1f5b4049354e8df",
+    "references/capabilities/string-formatting.md": "30c0bd7374151e3db7f2addc81d1f657ef7890b77f9ab843696bf9f9cf39800b",
+    "references/capability-index.md": "e36befbaf624c78d48e3bb6634465ecafcb84e348a653f104a6f57cc60bd18d9",
+    "references/cheatsheet.md": "4c80ce1261eb69b276321e5ba00cd5fdcd17d37e0910bc34501026c825efc544",
+    "references/glossary.md": "7212a3f3ee6e9f613cf218c8eabd76a13f906377894944a9789b4304b05aca18",
+    "references/overview.md": "718e1af08cc3c9bdd51cd026f07231d1a443ab27d6bc45aad1a7913a51974400"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.python-quick-reference",
+  "bundle_sha256": "87a014ea43587b11f7aa5bac2ad13b1be9f8cd941053d3fdf3b860b3398fea51",
+  "variant": "single",
+  "run_id": "run-20260917-033659-923928",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 7,
+    "capability_count": 20,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 7 个晋级 Skill，共 8 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

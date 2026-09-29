@@ -1,0 +1,50 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "SKILL.md": "6004ae0e949e72c0fa20329dee96bc95097a38deceba8571d490697752689eda",
+    "references/capabilities/csv-and-json.md": "aca106b1535dd54c5f7ea6a381fe4b0ee3171b82edc5933856b40a33cb7a0414",
+    "references/capabilities/debugging-toolkit.md": "8bcbd8b5fd82cc57792e730d7427654c52854a12253afc106225fda98c8100a0",
+    "references/capabilities/dicts-and-modeling.md": "6ae33c4f5229e954a56c767712db03cf5f55df023332b28b7d24b8c2c530fdfe",
+    "references/capabilities/email-and-sms.md": "2b4375fb16ab0086aa45750cc7692f4eb428ebf786c9bde295fdf69876c74d56",
+    "references/capabilities/environment-setup.md": "0cbbebd2557acf1652734841a79d84d6000ef6928e1db7d8cf369187a8e5f634",
+    "references/capabilities/excel-spreadsheets.md": "b9cb614bfc8c1654e392d2f1b9a23e5b14b23176662ad5f96055bf7a940ad58a",
+    "references/capabilities/file-read-write.md": "79f640c6eec9ace7f41849d16f6a9c75326b01f2e1c17cd5bae3193c1d3243f5",
+    "references/capabilities/functions-and-exceptions.md": "135db69450add946739bb8e5959e021a1ccaec113d80d21fba07cc4587704c82",
+    "references/capabilities/gui-automation.md": "0cb79115ce94d3133907fc2edf8837ecb2647d46c3d25173b3d69ec2f4e1f10a",
+    "references/capabilities/image-batch.md": "aa264dc95643c429ac30589d6a2f59479e063f9ebad2d25fcb6edd582a6cf2a3",
+    "references/capabilities/language-basics.md": "f4aa437cef51522c7a8787f605ef86ae7d710330dddb97dd76210ee6ca2a28a0",
+    "references/capabilities/lists-and-references.md": "3663c6ed02db232e97496a2f348a2f157d0c7bf55219a524559f277c5dc6540d",
+    "references/capabilities/organize-files.md": "b6e55463270e2e7cbfa749676ee14d97cccab1b13a4b1d3cd5fbe13ec24f5a73",
+    "references/capabilities/pdf-and-word.md": "6390b5fdd9b38efd8171c0c71264ba7eb1f56112f92fec53a45cee648da97490",
+    "references/capabilities/plan-and-migrate.md": "837df8b0788e727d925ff59e4e6818924b53aa9ffb4fce612233390690749f8f",
+    "references/capabilities/regex-patterns.md": "8f99517655637d5f65b970112f1a96c791ebb07a0c7d142f940e0e402e3bca91",
+    "references/capabilities/smart-questions.md": "66bec0cc2986abd2eaa60da36960453026b36fcb778d6a2807a9817f699b4509",
+    "references/capabilities/strings-and-clipboard.md": "922b89f52148e0ed2a2f04ddf828211b0c3effd4748478dca1dfb020e33757a9",
+    "references/capabilities/time-and-scheduling.md": "40e9915bf699ecca05296b8d090a93749f52fea4e5a9dce94876aa01c9622a04",
+    "references/capabilities/web-scraping.md": "da0bacd1f8d59ffd128ea09834213163dd22451359b1693ee5223b68d522acd1",
+    "references/capability-index.md": "dafc83e253045a81610e67ee9e538ef93ca97427037eecb1f6e67d8f0b301f21",
+    "references/cheatsheet.md": "61da09ce687697e8aacf2523d29042595acdc130bd56b4c746135b81593e9912",
+    "references/glossary.md": "c9972b9ed0e61d863ec1a9cd34bf9a68d6e76ce006a12f4f515cb4c2781ac631",
+    "references/overview.md": "0b1ef75be034a5cac91d4891fe9e99a545b4f8bdc89cc6c5a42e256847c2be95"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.automate-boring-stuff",
+  "bundle_sha256": "324cc2b90e01e770660b2c88ac698c1423b185af12662d81242a45755cebc33e",
+  "variant": "single",
+  "run_id": "run-20260918-030648-3f08aa",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 7,
+    "capability_count": 20,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 7 个晋级 Skill，共 8 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

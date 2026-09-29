@@ -1,0 +1,47 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "SKILL.md": "16d6e923c9c88d8707a1b0b77f5f9dd6f6493a2e112cd14d6b50a93983f1fc65",
+    "references/capabilities/actant-politics.md": "d7cfc9779b928a29d6ec7bc4da9467f8567ed9e6818993649fbefb5f7b9124ba",
+    "references/capabilities/alignment-audit.md": "757144a7f747848f8e49a6f1d7239c8c3f801b630195329603a513f2b93ec82c",
+    "references/capabilities/anthropological-machine.md": "9fafd2195c3d023feea23cfce74d58d26857293c7b30e37f14942ea29ddfe3ed",
+    "references/capabilities/de-sapienization.md": "3387c5625f163ba3b1e0fb8d61b5ba2f0ade451efdb6a09ca3a04914b91e934c",
+    "references/capabilities/dromology.md": "9b1204e878008fca139a405b2424b0de93366f5f6267183e69d80ec6a10008e1",
+    "references/capabilities/entropy-ledger.md": "451aa4329cb9e8589faec48ce886d2805f310e0a16eece1af9e09c1b8aa369f9",
+    "references/capabilities/humanism-critique.md": "8c181fa9a9ce23d0ef80f10956de44c9ce4fbc1db1fc702fc831f23fc541c0c2",
+    "references/capabilities/idleness-politics.md": "8f8dbb17b95038488ef59bc13536d6672d9005ab4a9ae9e36d3ebd0804c40611",
+    "references/capabilities/intelligence-vs-wisdom.md": "189df970b75f12a2dc5c4994d9a3aa0de5b8ea82b636f8ab6aa624dc0726752e",
+    "references/capabilities/llm-consciousness.md": "102353cc5bd5172b02a688f4cbda6b2418235dac35fdd66c6d6f60339585ee56",
+    "references/capabilities/love-algorithms.md": "71f5fe0ae134ebb86254b32c151de3e35876480a00265b7cf057125ead6283c5",
+    "references/capabilities/organology.md": "68d439ad1161c838c6a8be17593005e4ead54932d49fd175d315b4ea1c4103eb",
+    "references/capabilities/posthuman-education.md": "8d34de1685a24d0bf1dee5a31938f1892b0a64144e52cbc59a18b87ddaf68532",
+    "references/capabilities/posthuman-knowledge.md": "6e5371733c37ac1db5aaf2808681add11878a1bcea8e3f9f5cf8a3c93180fb18",
+    "references/capabilities/systemic-stupidity.md": "4deca1c0bf7cc2ddbb38995a9aa9a1c5e4bff68820d193fadc87cddefd15949d",
+    "references/capabilities/techno-politics.md": "a4dc2c173cc490da4d6bac8f4604bbe6e4450b135846e0c3ac47701fc88a1c88",
+    "references/capabilities/trust.md": "544513831218b36f111dfacffd7c20c2e770f27bc503b1ee73d9d0cd0c679516",
+    "references/capability-index.md": "79c7598494c779cc2fc53da737dd32fc18654524ffdac48ff58769f5d1c0236c",
+    "references/cheatsheet.md": "efa0f83c7cf918b785a0d2bb97d6e1bb04e0a9d2fc490c041c1b5dbbdbb51a23",
+    "references/glossary.md": "6cf9c467b94248cbf9b809ea706067e491b8d3fc0751a496f8ea57df3fda7fcb",
+    "references/overview.md": "4dcf4a09bbae7ba92f6ec4479e56849e71b74c1a71ecfe88fb04b0fdabfc5847"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.goodbye-sapiens",
+  "bundle_sha256": "32be73a948c5cf0207228d0c5d0db3e891c2b88fb9fb9361fdc9a300635d687a",
+  "variant": "single",
+  "run_id": "run-20260918-035909-2afdce",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 7,
+    "capability_count": 17,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 7 个晋级 Skill，共 8 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

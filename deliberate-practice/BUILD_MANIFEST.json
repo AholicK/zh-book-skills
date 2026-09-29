@@ -1,0 +1,49 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "SKILL.md": "506172c5d2a7b94fbe00f3899e1be40a79d477fc3aec82d991fda373e77e23dc",
+    "references/capabilities/adult-learning.md": "0dc02757659a9d007c377df39be0649948d6c66da9e06122501049a1cbdfd72f",
+    "references/capabilities/challenge-calibration.md": "2c23026d35545db4de4479dca335b814493aee4e18faffbce940572e0fb33880",
+    "references/capabilities/expert-roadmap.md": "20df6fd6cef10dd8099203ebd8680080aa86597df45449fd67a23248f06b0358",
+    "references/capabilities/genius-demystified.md": "0ca747d59b265e5108d0046e0796617c79525ec68c2673de5e076762bd4aa0be",
+    "references/capabilities/goal-decomposition.md": "68c825f94e9ce830917d20af39a7bf37861fb699e1def804ff3930b0a268449a",
+    "references/capabilities/mental-representations.md": "0c8d436cead2079245bc5dc8f1d8a50895aebcd05288b0231face8526fb758c7",
+    "references/capabilities/mentor-selection.md": "dce9bc2b910650f55726471ca2bdfd7bd92dc536cdfd04f203e286e9356bd2d5",
+    "references/capabilities/motivation-system.md": "1c4d34448ddd887436928ccf54bbb009234095dede84eebdbd06bf44dcada489",
+    "references/capabilities/plateau-breakthrough.md": "8a0fdd4b1cc644dfc38be27389b5e13274694c552a02299c55637c996973ef11",
+    "references/capabilities/practice-conditions.md": "ffc5abff14c8250bdfdf186caaedb8832630c133cbf9ceeae1a3d4e378bb13a5",
+    "references/capabilities/practice-history.md": "4ac4ea2de38b04a5ee1b528a13db816da8e918d63c4925f26184327c77a674ed",
+    "references/capabilities/purposeful-practice.md": "23dcfb68f3a48b02d159578ca00a4860b97e50e5dcc9a13caf97f6444ec1e5f5",
+    "references/capabilities/self-training.md": "9e6a41cb731a6443db851c679e07f622d240e9bab156e95417efe7fb4af1a926",
+    "references/capabilities/talent-bias.md": "f51c156d5ca3ee225d0bfc4bec5609a0184dac202776abf447a422e06c770799",
+    "references/capabilities/teaching-redesign.md": "4a5064410bfb9e5b3b558a88752609b2c3c0aba736685d1e56517d6ec35f65fd",
+    "references/capabilities/ten-thousand-hours.md": "603aecfb18de8fe9e26f9fc5f7575a09197d6f097fad73f712d8dff689c3df14",
+    "references/capabilities/training-systems.md": "cce5976bb293c085d7f6b7c3fafcec4f3eae4ab432cdd424d2908f0d873f09a6",
+    "references/capabilities/willpower-myth.md": "495e2f703623fd8d6e378a56d886a46bf787b722299f16c872353a6fc933fded",
+    "references/capabilities/workplace-training.md": "639e23591bdec69ddd464d2ee9311b9e900a0acab4613a443802ff50fc30246d",
+    "references/capability-index.md": "e7ee7c43cfb88f270752f2bb8104852fd8a7498e9794ae5eb72b3aa64b901f3c",
+    "references/cheatsheet.md": "d624bac89f93755fa2bb60ea51ef923aca9f6f797a502b7e19d5fb445c501a97",
+    "references/glossary.md": "fb5df1d50d75212ab19d62675f9137c2fa54e91c6907aef09ea001bf037403b9",
+    "references/overview.md": "561671719c4ae85037d653ef1384c6ffdb5d48315812201bd91380dc5b901d85"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.deliberate-practice",
+  "bundle_sha256": "723257e135397e9a84bd19dca3e59140ae59442168172ea1ee0d17d48c5af0b6",
+  "variant": "single",
+  "run_id": "run-20260917-231947-b8d558",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 7,
+    "capability_count": 19,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 7 个晋级 Skill，共 8 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}
